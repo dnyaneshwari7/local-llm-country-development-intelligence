@@ -1,0 +1,41 @@
+[
+  {
+    "evaluated_model": "llama3.1:8b",
+    "consistency_score": 8.0,
+    "completeness_score": 10.0,
+    "factual_alignment_score": 6.0,
+    "usefulness_score": 10.0,
+    "overall_score": 8.5,
+    "main_issues": [],
+    "recommended_improvements": [
+      "Run the extraction with local LLMs through Ollama for richer narrative outputs.",
+      "Manually verify key numerical indicators against the PDF tables before final report submission."
+    ]
+  },
+  {
+    "evaluated_model": "mistral:7b",
+    "consistency_score": 8.0,
+    "completeness_score": 10.0,
+    "factual_alignment_score": 6.0,
+    "usefulness_score": 10.0,
+    "overall_score": 8.5,
+    "main_issues": [],
+    "recommended_improvements": [
+      "Run the extraction with local LLMs through Ollama for richer narrative outputs.",
+      "Manually verify key numerical indicators against the PDF tables before final report submission."
+    ]
+  },
+  {
+    "evaluated_model": "qwen2.5:7b",
+    "consistency_score": 8.0,
+    "completeness_score": 10.0,
+    "factual_alignment_score": 6.0,
+    "usefulness_score": 10.0,
+    "overall_score": 8.5,
+    "main_issues": [],
+    "recommended_improvements": [
+      "Run the extraction with local LLMs through Ollama for richer narrative outputs.",
+      "Manually verify key numerical indicators against the PDF tables before final report submission."
+    ]
+  }
+]

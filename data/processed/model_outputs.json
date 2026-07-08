@@ -1,0 +1,707 @@
+[
+  {
+    "country": "North Macedonia",
+    "model_name": "llama3.1:8b",
+    "key_strengths": [
+      {
+        "item": "Human development is treated as a multidimensional policy priority.",
+        "evidence": "[Page 2]\nNational Human Development Report 2004, FYR Macedonia Decentralization for human development\n\n[Page 3]\nNational Human Development Report 2004 Team Leader Dr."
+      },
+      {
+        "item": "The report includes education, health, income, and social inclusion evidence.",
+        "evidence": "[Page 2]\nNational Human Development Report 2004, FYR Macedonia Decentralization for human development\n\n[Page 3]\nNational Human Development Report 2004 Team Leader Dr."
+      },
+      {
+        "item": "The document provides quantitative material suitable for dashboard visualisation.",
+        "evidence": "It provides also for the first time comprehensive analysis of development challenges and opportunities faced by different ethnic groups."
+      },
+      {
+        "item": "Institutional reform and development planning are discussed across the report.",
+        "evidence": "[Page 2]\nNational Human Development Report 2004, FYR Macedonia Decentralization for human development\n\n[Page 3]\nNational Human Development Report 2004 Team Leader Dr."
+      },
+      {
+        "item": "The source includes references to vulnerable groups and regional disparities.",
+        "evidence": "Human resources and citizens\u2019 awareness ........................................................................."
+      }
+    ],
+    "key_challenges": [
+      {
+        "item": "Poverty and exclusion remain recurring development concerns.",
+        "evidence": "Poverty reduction and the challenge of unemployment ..........................................................."
+      },
+      {
+        "item": "Unemployment and labour-market weakness are repeatedly discussed.",
+        "evidence": "Boris Rebac, World Health Organization; Efka Indova, Ministry of Labour and Social Affairs; Elena Misik, UNICEF; Elena Petkanovsa, Ministry of Local Self Government; Emilija Simoska, Institute for Sociological, Political and Juridical Resea"
+      },
+      {
+        "item": "Regional and social inequalities require targeted policy responses.",
+        "evidence": "Andrey Ivanov, Human Development Advisor, Regional Support Centre Bratislava, UNDP Dr."
+      },
+      {
+        "item": "Some indicators are embedded in narrative text rather than clean tables.",
+        "evidence": "51 52 55 55 59 65 65 65 68 71 72 73 75 75 76 79 81 81 82 83 84 84 85 88 88 90 90 90 91 91 91 95 96 96 97 97 98 99 99 99 100 102\n\n[Page 7]\nIndex of tables Table 1.1: The competencies of municipalities as envisaged in two constitutions Table "
+      },
+      {
+        "item": "Evidence quality depends on the PDF extraction quality and historical data availability.",
+        "evidence": "Design Ladislav Cvetkovski Photography Andrej Ginovski Pre-press and print Skenpoint\n\n[Page 4]\nAbdula Aliu, South Eastern European University; Ace Kocevski, Mayor of Veles; Aferdita Imeri, Ministry of Education; Ajrija Causovska, State Stat"
+      }
+    ],
+    "indicators": {
+      "hdi_value": 0.793,
+      "hdi_rank": 60,
+      "life_expectancy_years": 73,
+      "expected_years_schooling": null,
+      "mean_years_schooling": null,
+      "gni_per_capita": null,
+      "population": "2004"
+    },
+    "time_series": [
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 1991,
+        "value": 2002.0,
+        "unit": "",
+        "source_phrase": "1991 to 2002"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 1.3,
+        "unit": "",
+        "source_phrase": "2002 Local Self-Government Act Table 1.3"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 2.4,
+        "unit": "",
+        "source_phrase": "2002 Table 2.4"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 2.5,
+        "unit": "",
+        "source_phrase": "2002 Table 2.5"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 2.6,
+        "unit": "",
+        "source_phrase": "2002 Table 2.6"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 2.7,
+        "unit": "",
+        "source_phrase": "2002 Table 2.7"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 2.8,
+        "unit": "",
+        "source_phrase": "2002 Table 2.8"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 2.1,
+        "unit": "",
+        "source_phrase": "2002 Table 2.10"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 2.11,
+        "unit": "",
+        "source_phrase": "2002 Table 2.11"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 3.1,
+        "unit": "",
+        "source_phrase": "2002 Table 3.1"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2001,
+        "value": 3.2,
+        "unit": "",
+        "source_phrase": "2001) \u2013 by households Table 3.2"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 1996,
+        "value": 2002.0,
+        "unit": "",
+        "source_phrase": "19962002 "
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 3.8,
+        "unit": "",
+        "source_phrase": "2002 census) Table 3.8"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 3.9,
+        "unit": "",
+        "source_phrase": "2002 census) Table 3.9"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 1996,
+        "value": 2002.0,
+        "unit": "",
+        "source_phrase": "1996-2002"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 3.16,
+        "unit": "",
+        "source_phrase": "2002 Table 3.16"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 4.2,
+        "unit": "",
+        "source_phrase": "2002) Table 4.2"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 4.3,
+        "unit": "",
+        "source_phrase": "2002 Table 4.3"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 3.0,
+        "unit": "",
+        "source_phrase": "2002/03"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2001,
+        "value": 2.0,
+        "unit": "",
+        "source_phrase": "2001/02"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 3.0,
+        "unit": "",
+        "source_phrase": "2002/03 "
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2004,
+        "value": 6.0,
+        "unit": "",
+        "source_phrase": "2004, Macedonia6\n"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 5.5,
+        "unit": "",
+        "source_phrase": "2002 Table 5.5"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 1.1,
+        "unit": "",
+        "source_phrase": "2002 Index of boxes Box 1.1"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 1995,
+        "value": 2002.0,
+        "unit": "",
+        "source_phrase": "1995-2002"
+      }
+    ],
+    "notes": "Rule-based fallback output. Run Ollama for richer LLM-generated extraction."
+  },
+  {
+    "country": "North Macedonia",
+    "model_name": "mistral:7b",
+    "key_strengths": [
+      {
+        "item": "Human development is treated as a multidimensional policy priority.",
+        "evidence": "[Page 2]\nNational Human Development Report 2004, FYR Macedonia Decentralization for human development\n\n[Page 3]\nNational Human Development Report 2004 Team Leader Dr."
+      },
+      {
+        "item": "The report includes education, health, income, and social inclusion evidence.",
+        "evidence": "[Page 2]\nNational Human Development Report 2004, FYR Macedonia Decentralization for human development\n\n[Page 3]\nNational Human Development Report 2004 Team Leader Dr."
+      },
+      {
+        "item": "The document provides quantitative material suitable for dashboard visualisation.",
+        "evidence": "It provides also for the first time comprehensive analysis of development challenges and opportunities faced by different ethnic groups."
+      },
+      {
+        "item": "Institutional reform and development planning are discussed across the report.",
+        "evidence": "[Page 2]\nNational Human Development Report 2004, FYR Macedonia Decentralization for human development\n\n[Page 3]\nNational Human Development Report 2004 Team Leader Dr."
+      },
+      {
+        "item": "The source includes references to vulnerable groups and regional disparities.",
+        "evidence": "Human resources and citizens\u2019 awareness ........................................................................."
+      }
+    ],
+    "key_challenges": [
+      {
+        "item": "Poverty and exclusion remain recurring development concerns.",
+        "evidence": "Poverty reduction and the challenge of unemployment ..........................................................."
+      },
+      {
+        "item": "Unemployment and labour-market weakness are repeatedly discussed.",
+        "evidence": "Boris Rebac, World Health Organization; Efka Indova, Ministry of Labour and Social Affairs; Elena Misik, UNICEF; Elena Petkanovsa, Ministry of Local Self Government; Emilija Simoska, Institute for Sociological, Political and Juridical Resea"
+      },
+      {
+        "item": "Regional and social inequalities require targeted policy responses.",
+        "evidence": "Andrey Ivanov, Human Development Advisor, Regional Support Centre Bratislava, UNDP Dr."
+      },
+      {
+        "item": "Some indicators are embedded in narrative text rather than clean tables.",
+        "evidence": "51 52 55 55 59 65 65 65 68 71 72 73 75 75 76 79 81 81 82 83 84 84 85 88 88 90 90 90 91 91 91 95 96 96 97 97 98 99 99 99 100 102\n\n[Page 7]\nIndex of tables Table 1.1: The competencies of municipalities as envisaged in two constitutions Table "
+      },
+      {
+        "item": "Evidence quality depends on the PDF extraction quality and historical data availability.",
+        "evidence": "Design Ladislav Cvetkovski Photography Andrej Ginovski Pre-press and print Skenpoint\n\n[Page 4]\nAbdula Aliu, South Eastern European University; Ace Kocevski, Mayor of Veles; Aferdita Imeri, Ministry of Education; Ajrija Causovska, State Stat"
+      }
+    ],
+    "indicators": {
+      "hdi_value": 0.793,
+      "hdi_rank": 60,
+      "life_expectancy_years": 73,
+      "expected_years_schooling": null,
+      "mean_years_schooling": null,
+      "gni_per_capita": null,
+      "population": "2004"
+    },
+    "time_series": [
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 1991,
+        "value": 2002.0,
+        "unit": "",
+        "source_phrase": "1991 to 2002"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 1.3,
+        "unit": "",
+        "source_phrase": "2002 Local Self-Government Act Table 1.3"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 2.4,
+        "unit": "",
+        "source_phrase": "2002 Table 2.4"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 2.5,
+        "unit": "",
+        "source_phrase": "2002 Table 2.5"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 2.6,
+        "unit": "",
+        "source_phrase": "2002 Table 2.6"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 2.7,
+        "unit": "",
+        "source_phrase": "2002 Table 2.7"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 2.8,
+        "unit": "",
+        "source_phrase": "2002 Table 2.8"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 2.1,
+        "unit": "",
+        "source_phrase": "2002 Table 2.10"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 2.11,
+        "unit": "",
+        "source_phrase": "2002 Table 2.11"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 3.1,
+        "unit": "",
+        "source_phrase": "2002 Table 3.1"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2001,
+        "value": 3.2,
+        "unit": "",
+        "source_phrase": "2001) \u2013 by households Table 3.2"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 1996,
+        "value": 2002.0,
+        "unit": "",
+        "source_phrase": "19962002 "
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 3.8,
+        "unit": "",
+        "source_phrase": "2002 census) Table 3.8"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 3.9,
+        "unit": "",
+        "source_phrase": "2002 census) Table 3.9"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 1996,
+        "value": 2002.0,
+        "unit": "",
+        "source_phrase": "1996-2002"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 3.16,
+        "unit": "",
+        "source_phrase": "2002 Table 3.16"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 4.2,
+        "unit": "",
+        "source_phrase": "2002) Table 4.2"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 4.3,
+        "unit": "",
+        "source_phrase": "2002 Table 4.3"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 3.0,
+        "unit": "",
+        "source_phrase": "2002/03"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2001,
+        "value": 2.0,
+        "unit": "",
+        "source_phrase": "2001/02"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 3.0,
+        "unit": "",
+        "source_phrase": "2002/03 "
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2004,
+        "value": 6.0,
+        "unit": "",
+        "source_phrase": "2004, Macedonia6\n"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 5.5,
+        "unit": "",
+        "source_phrase": "2002 Table 5.5"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 1.1,
+        "unit": "",
+        "source_phrase": "2002 Index of boxes Box 1.1"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 1995,
+        "value": 2002.0,
+        "unit": "",
+        "source_phrase": "1995-2002"
+      }
+    ],
+    "notes": "Rule-based fallback output. Run Ollama for richer LLM-generated extraction."
+  },
+  {
+    "country": "North Macedonia",
+    "model_name": "qwen2.5:7b",
+    "key_strengths": [
+      {
+        "item": "Human development is treated as a multidimensional policy priority.",
+        "evidence": "[Page 2]\nNational Human Development Report 2004, FYR Macedonia Decentralization for human development\n\n[Page 3]\nNational Human Development Report 2004 Team Leader Dr."
+      },
+      {
+        "item": "The report includes education, health, income, and social inclusion evidence.",
+        "evidence": "[Page 2]\nNational Human Development Report 2004, FYR Macedonia Decentralization for human development\n\n[Page 3]\nNational Human Development Report 2004 Team Leader Dr."
+      },
+      {
+        "item": "The document provides quantitative material suitable for dashboard visualisation.",
+        "evidence": "It provides also for the first time comprehensive analysis of development challenges and opportunities faced by different ethnic groups."
+      },
+      {
+        "item": "Institutional reform and development planning are discussed across the report.",
+        "evidence": "[Page 2]\nNational Human Development Report 2004, FYR Macedonia Decentralization for human development\n\n[Page 3]\nNational Human Development Report 2004 Team Leader Dr."
+      },
+      {
+        "item": "The source includes references to vulnerable groups and regional disparities.",
+        "evidence": "Human resources and citizens\u2019 awareness ........................................................................."
+      }
+    ],
+    "key_challenges": [
+      {
+        "item": "Poverty and exclusion remain recurring development concerns.",
+        "evidence": "Poverty reduction and the challenge of unemployment ..........................................................."
+      },
+      {
+        "item": "Unemployment and labour-market weakness are repeatedly discussed.",
+        "evidence": "Boris Rebac, World Health Organization; Efka Indova, Ministry of Labour and Social Affairs; Elena Misik, UNICEF; Elena Petkanovsa, Ministry of Local Self Government; Emilija Simoska, Institute for Sociological, Political and Juridical Resea"
+      },
+      {
+        "item": "Regional and social inequalities require targeted policy responses.",
+        "evidence": "Andrey Ivanov, Human Development Advisor, Regional Support Centre Bratislava, UNDP Dr."
+      },
+      {
+        "item": "Some indicators are embedded in narrative text rather than clean tables.",
+        "evidence": "51 52 55 55 59 65 65 65 68 71 72 73 75 75 76 79 81 81 82 83 84 84 85 88 88 90 90 90 91 91 91 95 96 96 97 97 98 99 99 99 100 102\n\n[Page 7]\nIndex of tables Table 1.1: The competencies of municipalities as envisaged in two constitutions Table "
+      },
+      {
+        "item": "Evidence quality depends on the PDF extraction quality and historical data availability.",
+        "evidence": "Design Ladislav Cvetkovski Photography Andrej Ginovski Pre-press and print Skenpoint\n\n[Page 4]\nAbdula Aliu, South Eastern European University; Ace Kocevski, Mayor of Veles; Aferdita Imeri, Ministry of Education; Ajrija Causovska, State Stat"
+      }
+    ],
+    "indicators": {
+      "hdi_value": 0.793,
+      "hdi_rank": 60,
+      "life_expectancy_years": 73,
+      "expected_years_schooling": null,
+      "mean_years_schooling": null,
+      "gni_per_capita": null,
+      "population": "2004"
+    },
+    "time_series": [
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 1991,
+        "value": 2002.0,
+        "unit": "",
+        "source_phrase": "1991 to 2002"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 1.3,
+        "unit": "",
+        "source_phrase": "2002 Local Self-Government Act Table 1.3"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 2.4,
+        "unit": "",
+        "source_phrase": "2002 Table 2.4"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 2.5,
+        "unit": "",
+        "source_phrase": "2002 Table 2.5"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 2.6,
+        "unit": "",
+        "source_phrase": "2002 Table 2.6"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 2.7,
+        "unit": "",
+        "source_phrase": "2002 Table 2.7"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 2.8,
+        "unit": "",
+        "source_phrase": "2002 Table 2.8"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 2.1,
+        "unit": "",
+        "source_phrase": "2002 Table 2.10"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 2.11,
+        "unit": "",
+        "source_phrase": "2002 Table 2.11"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 3.1,
+        "unit": "",
+        "source_phrase": "2002 Table 3.1"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2001,
+        "value": 3.2,
+        "unit": "",
+        "source_phrase": "2001) \u2013 by households Table 3.2"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 1996,
+        "value": 2002.0,
+        "unit": "",
+        "source_phrase": "19962002 "
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 3.8,
+        "unit": "",
+        "source_phrase": "2002 census) Table 3.8"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 3.9,
+        "unit": "",
+        "source_phrase": "2002 census) Table 3.9"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 1996,
+        "value": 2002.0,
+        "unit": "",
+        "source_phrase": "1996-2002"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 3.16,
+        "unit": "",
+        "source_phrase": "2002 Table 3.16"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 4.2,
+        "unit": "",
+        "source_phrase": "2002) Table 4.2"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 4.3,
+        "unit": "",
+        "source_phrase": "2002 Table 4.3"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 3.0,
+        "unit": "",
+        "source_phrase": "2002/03"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2001,
+        "value": 2.0,
+        "unit": "",
+        "source_phrase": "2001/02"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 3.0,
+        "unit": "",
+        "source_phrase": "2002/03 "
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2004,
+        "value": 6.0,
+        "unit": "",
+        "source_phrase": "2004, Macedonia6\n"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 5.5,
+        "unit": "",
+        "source_phrase": "2002 Table 5.5"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 2002,
+        "value": 1.1,
+        "unit": "",
+        "source_phrase": "2002 Index of boxes Box 1.1"
+      },
+      {
+        "name": "candidate_time_based_quantity",
+        "year": 1995,
+        "value": 2002.0,
+        "unit": "",
+        "source_phrase": "1995-2002"
+      }
+    ],
+    "notes": "Rule-based fallback output. Run Ollama for richer LLM-generated extraction."
+  }
+]

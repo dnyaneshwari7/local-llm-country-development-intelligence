@@ -1,0 +1,1535 @@
+{
+  "theme_counts": [
+    {
+      "theme": "education",
+      "count": 374
+    },
+    {
+      "theme": "employment",
+      "count": 314
+    },
+    {
+      "theme": "health",
+      "count": 257
+    },
+    {
+      "theme": "economy",
+      "count": 230
+    },
+    {
+      "theme": "gender",
+      "count": 136
+    },
+    {
+      "theme": "inequality",
+      "count": 106
+    },
+    {
+      "theme": "climate",
+      "count": 29
+    }
+  ],
+  "model_evaluations": [
+    {
+      "evaluated_model": "llama3.1:8b",
+      "consistency_score": 8.0,
+      "completeness_score": 10.0,
+      "factual_alignment_score": 6.0,
+      "usefulness_score": 10.0,
+      "overall_score": 8.5,
+      "main_issues": [],
+      "recommended_improvements": [
+        "Run the extraction with local LLMs through Ollama for richer narrative outputs.",
+        "Manually verify key numerical indicators against the PDF tables before final report submission."
+      ]
+    },
+    {
+      "evaluated_model": "mistral:7b",
+      "consistency_score": 8.0,
+      "completeness_score": 10.0,
+      "factual_alignment_score": 6.0,
+      "usefulness_score": 10.0,
+      "overall_score": 8.5,
+      "main_issues": [],
+      "recommended_improvements": [
+        "Run the extraction with local LLMs through Ollama for richer narrative outputs.",
+        "Manually verify key numerical indicators against the PDF tables before final report submission."
+      ]
+    },
+    {
+      "evaluated_model": "qwen2.5:7b",
+      "consistency_score": 8.0,
+      "completeness_score": 10.0,
+      "factual_alignment_score": 6.0,
+      "usefulness_score": 10.0,
+      "overall_score": 8.5,
+      "main_issues": [],
+      "recommended_improvements": [
+        "Run the extraction with local LLMs through Ollama for richer narrative outputs.",
+        "Manually verify key numerical indicators against the PDF tables before final report submission."
+      ]
+    }
+  ],
+  "indicator_rows": [
+    {
+      "model": "llama3.1:8b",
+      "indicator": "hdi_value",
+      "value": 0.793
+    },
+    {
+      "model": "llama3.1:8b",
+      "indicator": "hdi_rank",
+      "value": 60
+    },
+    {
+      "model": "llama3.1:8b",
+      "indicator": "life_expectancy_years",
+      "value": 73
+    },
+    {
+      "model": "llama3.1:8b",
+      "indicator": "population",
+      "value": "2004"
+    },
+    {
+      "model": "mistral:7b",
+      "indicator": "hdi_value",
+      "value": 0.793
+    },
+    {
+      "model": "mistral:7b",
+      "indicator": "hdi_rank",
+      "value": 60
+    },
+    {
+      "model": "mistral:7b",
+      "indicator": "life_expectancy_years",
+      "value": 73
+    },
+    {
+      "model": "mistral:7b",
+      "indicator": "population",
+      "value": "2004"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "indicator": "hdi_value",
+      "value": 0.793
+    },
+    {
+      "model": "qwen2.5:7b",
+      "indicator": "hdi_rank",
+      "value": 60
+    },
+    {
+      "model": "qwen2.5:7b",
+      "indicator": "life_expectancy_years",
+      "value": 73
+    },
+    {
+      "model": "qwen2.5:7b",
+      "indicator": "population",
+      "value": "2004"
+    }
+  ],
+  "time_series_rows": [
+    {
+      "model": "llama3.1:8b",
+      "name": "candidate_time_based_quantity",
+      "year": 1991,
+      "value": 2002.0,
+      "unit": "",
+      "source_phrase": "1991 to 2002"
+    },
+    {
+      "model": "llama3.1:8b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 1.3,
+      "unit": "",
+      "source_phrase": "2002 Local Self-Government Act Table 1.3"
+    },
+    {
+      "model": "llama3.1:8b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 2.4,
+      "unit": "",
+      "source_phrase": "2002 Table 2.4"
+    },
+    {
+      "model": "llama3.1:8b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 2.5,
+      "unit": "",
+      "source_phrase": "2002 Table 2.5"
+    },
+    {
+      "model": "llama3.1:8b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 2.6,
+      "unit": "",
+      "source_phrase": "2002 Table 2.6"
+    },
+    {
+      "model": "llama3.1:8b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 2.7,
+      "unit": "",
+      "source_phrase": "2002 Table 2.7"
+    },
+    {
+      "model": "llama3.1:8b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 2.8,
+      "unit": "",
+      "source_phrase": "2002 Table 2.8"
+    },
+    {
+      "model": "llama3.1:8b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 2.1,
+      "unit": "",
+      "source_phrase": "2002 Table 2.10"
+    },
+    {
+      "model": "llama3.1:8b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 2.11,
+      "unit": "",
+      "source_phrase": "2002 Table 2.11"
+    },
+    {
+      "model": "llama3.1:8b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 3.1,
+      "unit": "",
+      "source_phrase": "2002 Table 3.1"
+    },
+    {
+      "model": "llama3.1:8b",
+      "name": "candidate_time_based_quantity",
+      "year": 2001,
+      "value": 3.2,
+      "unit": "",
+      "source_phrase": "2001) \u2013 by households Table 3.2"
+    },
+    {
+      "model": "llama3.1:8b",
+      "name": "candidate_time_based_quantity",
+      "year": 1996,
+      "value": 2002.0,
+      "unit": "",
+      "source_phrase": "19962002 "
+    },
+    {
+      "model": "llama3.1:8b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 3.8,
+      "unit": "",
+      "source_phrase": "2002 census) Table 3.8"
+    },
+    {
+      "model": "llama3.1:8b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 3.9,
+      "unit": "",
+      "source_phrase": "2002 census) Table 3.9"
+    },
+    {
+      "model": "llama3.1:8b",
+      "name": "candidate_time_based_quantity",
+      "year": 1996,
+      "value": 2002.0,
+      "unit": "",
+      "source_phrase": "1996-2002"
+    },
+    {
+      "model": "llama3.1:8b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 3.16,
+      "unit": "",
+      "source_phrase": "2002 Table 3.16"
+    },
+    {
+      "model": "llama3.1:8b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 4.2,
+      "unit": "",
+      "source_phrase": "2002) Table 4.2"
+    },
+    {
+      "model": "llama3.1:8b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 4.3,
+      "unit": "",
+      "source_phrase": "2002 Table 4.3"
+    },
+    {
+      "model": "llama3.1:8b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 3.0,
+      "unit": "",
+      "source_phrase": "2002/03"
+    },
+    {
+      "model": "llama3.1:8b",
+      "name": "candidate_time_based_quantity",
+      "year": 2001,
+      "value": 2.0,
+      "unit": "",
+      "source_phrase": "2001/02"
+    },
+    {
+      "model": "llama3.1:8b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 3.0,
+      "unit": "",
+      "source_phrase": "2002/03 "
+    },
+    {
+      "model": "llama3.1:8b",
+      "name": "candidate_time_based_quantity",
+      "year": 2004,
+      "value": 6.0,
+      "unit": "",
+      "source_phrase": "2004, Macedonia6\n"
+    },
+    {
+      "model": "llama3.1:8b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 5.5,
+      "unit": "",
+      "source_phrase": "2002 Table 5.5"
+    },
+    {
+      "model": "llama3.1:8b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 1.1,
+      "unit": "",
+      "source_phrase": "2002 Index of boxes Box 1.1"
+    },
+    {
+      "model": "llama3.1:8b",
+      "name": "candidate_time_based_quantity",
+      "year": 1995,
+      "value": 2002.0,
+      "unit": "",
+      "source_phrase": "1995-2002"
+    },
+    {
+      "model": "mistral:7b",
+      "name": "candidate_time_based_quantity",
+      "year": 1991,
+      "value": 2002.0,
+      "unit": "",
+      "source_phrase": "1991 to 2002"
+    },
+    {
+      "model": "mistral:7b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 1.3,
+      "unit": "",
+      "source_phrase": "2002 Local Self-Government Act Table 1.3"
+    },
+    {
+      "model": "mistral:7b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 2.4,
+      "unit": "",
+      "source_phrase": "2002 Table 2.4"
+    },
+    {
+      "model": "mistral:7b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 2.5,
+      "unit": "",
+      "source_phrase": "2002 Table 2.5"
+    },
+    {
+      "model": "mistral:7b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 2.6,
+      "unit": "",
+      "source_phrase": "2002 Table 2.6"
+    },
+    {
+      "model": "mistral:7b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 2.7,
+      "unit": "",
+      "source_phrase": "2002 Table 2.7"
+    },
+    {
+      "model": "mistral:7b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 2.8,
+      "unit": "",
+      "source_phrase": "2002 Table 2.8"
+    },
+    {
+      "model": "mistral:7b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 2.1,
+      "unit": "",
+      "source_phrase": "2002 Table 2.10"
+    },
+    {
+      "model": "mistral:7b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 2.11,
+      "unit": "",
+      "source_phrase": "2002 Table 2.11"
+    },
+    {
+      "model": "mistral:7b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 3.1,
+      "unit": "",
+      "source_phrase": "2002 Table 3.1"
+    },
+    {
+      "model": "mistral:7b",
+      "name": "candidate_time_based_quantity",
+      "year": 2001,
+      "value": 3.2,
+      "unit": "",
+      "source_phrase": "2001) \u2013 by households Table 3.2"
+    },
+    {
+      "model": "mistral:7b",
+      "name": "candidate_time_based_quantity",
+      "year": 1996,
+      "value": 2002.0,
+      "unit": "",
+      "source_phrase": "19962002 "
+    },
+    {
+      "model": "mistral:7b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 3.8,
+      "unit": "",
+      "source_phrase": "2002 census) Table 3.8"
+    },
+    {
+      "model": "mistral:7b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 3.9,
+      "unit": "",
+      "source_phrase": "2002 census) Table 3.9"
+    },
+    {
+      "model": "mistral:7b",
+      "name": "candidate_time_based_quantity",
+      "year": 1996,
+      "value": 2002.0,
+      "unit": "",
+      "source_phrase": "1996-2002"
+    },
+    {
+      "model": "mistral:7b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 3.16,
+      "unit": "",
+      "source_phrase": "2002 Table 3.16"
+    },
+    {
+      "model": "mistral:7b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 4.2,
+      "unit": "",
+      "source_phrase": "2002) Table 4.2"
+    },
+    {
+      "model": "mistral:7b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 4.3,
+      "unit": "",
+      "source_phrase": "2002 Table 4.3"
+    },
+    {
+      "model": "mistral:7b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 3.0,
+      "unit": "",
+      "source_phrase": "2002/03"
+    },
+    {
+      "model": "mistral:7b",
+      "name": "candidate_time_based_quantity",
+      "year": 2001,
+      "value": 2.0,
+      "unit": "",
+      "source_phrase": "2001/02"
+    },
+    {
+      "model": "mistral:7b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 3.0,
+      "unit": "",
+      "source_phrase": "2002/03 "
+    },
+    {
+      "model": "mistral:7b",
+      "name": "candidate_time_based_quantity",
+      "year": 2004,
+      "value": 6.0,
+      "unit": "",
+      "source_phrase": "2004, Macedonia6\n"
+    },
+    {
+      "model": "mistral:7b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 5.5,
+      "unit": "",
+      "source_phrase": "2002 Table 5.5"
+    },
+    {
+      "model": "mistral:7b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 1.1,
+      "unit": "",
+      "source_phrase": "2002 Index of boxes Box 1.1"
+    },
+    {
+      "model": "mistral:7b",
+      "name": "candidate_time_based_quantity",
+      "year": 1995,
+      "value": 2002.0,
+      "unit": "",
+      "source_phrase": "1995-2002"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "name": "candidate_time_based_quantity",
+      "year": 1991,
+      "value": 2002.0,
+      "unit": "",
+      "source_phrase": "1991 to 2002"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 1.3,
+      "unit": "",
+      "source_phrase": "2002 Local Self-Government Act Table 1.3"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 2.4,
+      "unit": "",
+      "source_phrase": "2002 Table 2.4"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 2.5,
+      "unit": "",
+      "source_phrase": "2002 Table 2.5"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 2.6,
+      "unit": "",
+      "source_phrase": "2002 Table 2.6"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 2.7,
+      "unit": "",
+      "source_phrase": "2002 Table 2.7"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 2.8,
+      "unit": "",
+      "source_phrase": "2002 Table 2.8"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 2.1,
+      "unit": "",
+      "source_phrase": "2002 Table 2.10"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 2.11,
+      "unit": "",
+      "source_phrase": "2002 Table 2.11"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 3.1,
+      "unit": "",
+      "source_phrase": "2002 Table 3.1"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "name": "candidate_time_based_quantity",
+      "year": 2001,
+      "value": 3.2,
+      "unit": "",
+      "source_phrase": "2001) \u2013 by households Table 3.2"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "name": "candidate_time_based_quantity",
+      "year": 1996,
+      "value": 2002.0,
+      "unit": "",
+      "source_phrase": "19962002 "
+    },
+    {
+      "model": "qwen2.5:7b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 3.8,
+      "unit": "",
+      "source_phrase": "2002 census) Table 3.8"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 3.9,
+      "unit": "",
+      "source_phrase": "2002 census) Table 3.9"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "name": "candidate_time_based_quantity",
+      "year": 1996,
+      "value": 2002.0,
+      "unit": "",
+      "source_phrase": "1996-2002"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 3.16,
+      "unit": "",
+      "source_phrase": "2002 Table 3.16"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 4.2,
+      "unit": "",
+      "source_phrase": "2002) Table 4.2"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 4.3,
+      "unit": "",
+      "source_phrase": "2002 Table 4.3"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 3.0,
+      "unit": "",
+      "source_phrase": "2002/03"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "name": "candidate_time_based_quantity",
+      "year": 2001,
+      "value": 2.0,
+      "unit": "",
+      "source_phrase": "2001/02"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 3.0,
+      "unit": "",
+      "source_phrase": "2002/03 "
+    },
+    {
+      "model": "qwen2.5:7b",
+      "name": "candidate_time_based_quantity",
+      "year": 2004,
+      "value": 6.0,
+      "unit": "",
+      "source_phrase": "2004, Macedonia6\n"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 5.5,
+      "unit": "",
+      "source_phrase": "2002 Table 5.5"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "name": "candidate_time_based_quantity",
+      "year": 2002,
+      "value": 1.1,
+      "unit": "",
+      "source_phrase": "2002 Index of boxes Box 1.1"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "name": "candidate_time_based_quantity",
+      "year": 1995,
+      "value": 2002.0,
+      "unit": "",
+      "source_phrase": "1995-2002"
+    }
+  ],
+  "radar_values": [
+    {
+      "dimension": "Education signal",
+      "score": 10.0
+    },
+    {
+      "dimension": "Health signal",
+      "score": 6.87
+    },
+    {
+      "dimension": "Economy signal",
+      "score": 6.15
+    },
+    {
+      "dimension": "Inequality signal",
+      "score": 2.83
+    },
+    {
+      "dimension": "Model quality",
+      "score": 8.5
+    },
+    {
+      "dimension": "Indicator coverage",
+      "score": 10
+    },
+    {
+      "dimension": "Trend coverage",
+      "score": 10
+    }
+  ],
+  "key_strengths": [
+    {
+      "item": "Human development is treated as a multidimensional policy priority.",
+      "evidence": "[Page 2]\nNational Human Development Report 2004, FYR Macedonia Decentralization for human development\n\n[Page 3]\nNational Human Development Report 2004 Team Leader Dr."
+    },
+    {
+      "item": "The report includes education, health, income, and social inclusion evidence.",
+      "evidence": "[Page 2]\nNational Human Development Report 2004, FYR Macedonia Decentralization for human development\n\n[Page 3]\nNational Human Development Report 2004 Team Leader Dr."
+    },
+    {
+      "item": "The document provides quantitative material suitable for dashboard visualisation.",
+      "evidence": "It provides also for the first time comprehensive analysis of development challenges and opportunities faced by different ethnic groups."
+    },
+    {
+      "item": "Institutional reform and development planning are discussed across the report.",
+      "evidence": "[Page 2]\nNational Human Development Report 2004, FYR Macedonia Decentralization for human development\n\n[Page 3]\nNational Human Development Report 2004 Team Leader Dr."
+    },
+    {
+      "item": "The source includes references to vulnerable groups and regional disparities.",
+      "evidence": "Human resources and citizens\u2019 awareness ........................................................................."
+    }
+  ],
+  "key_challenges": [
+    {
+      "item": "Poverty and exclusion remain recurring development concerns.",
+      "evidence": "Poverty reduction and the challenge of unemployment ..........................................................."
+    },
+    {
+      "item": "Unemployment and labour-market weakness are repeatedly discussed.",
+      "evidence": "Boris Rebac, World Health Organization; Efka Indova, Ministry of Labour and Social Affairs; Elena Misik, UNICEF; Elena Petkanovsa, Ministry of Local Self Government; Emilija Simoska, Institute for Sociological, Political and Juridical Resea"
+    },
+    {
+      "item": "Regional and social inequalities require targeted policy responses.",
+      "evidence": "Andrey Ivanov, Human Development Advisor, Regional Support Centre Bratislava, UNDP Dr."
+    },
+    {
+      "item": "Some indicators are embedded in narrative text rather than clean tables.",
+      "evidence": "51 52 55 55 59 65 65 65 68 71 72 73 75 75 76 79 81 81 82 83 84 84 85 88 88 90 90 90 91 91 91 95 96 96 97 97 98 99 99 99 100 102\n\n[Page 7]\nIndex of tables Table 1.1: The competencies of municipalities as envisaged in two constitutions Table "
+    },
+    {
+      "item": "Evidence quality depends on the PDF extraction quality and historical data availability.",
+      "evidence": "Design Ladislav Cvetkovski Photography Andrej Ginovski Pre-press and print Skenpoint\n\n[Page 4]\nAbdula Aliu, South Eastern European University; Ace Kocevski, Mayor of Veles; Aferdita Imeri, Ministry of Education; Ajrija Causovska, State Stat"
+    }
+  ],
+  "chapter_summaries": [
+    {
+      "chapter_title": "Chapter 1: Decentralized government and local development in Macedonia ....................... Why local governance? ...........................................",
+      "summary_under_100_words": "Chapter 1: Decentralized government and local development in Macedonia ....................... Why local governance? ............................................................................................................................ Local self-government in Macedonia \u2013 an historical perspective............................................ Local self-governance in the socialist period..................................................................... Local self-government in the beginning of the transition \u2013 1991 to 2002............. Current situation \u2013 challenges to effective local self-government ......................................... Municipal competencies............................................................................................................ Financing ......................................................................................................................................... Territorial division and composition of municipalities................................................... Tiers of local self-government ................................................................................................. Human resources and citizens\u2019 awareness ......................................................................... Opportunities for effective local self-government in Macedonia .............................. Institutional reform and decentralization ........................................................................... Chapter 2:",
+      "key_points": [
+        "Chapter 1: Decentralized government and local development in Macedonia .......................",
+        "Local self-government in the beginning of the transition \u2013 1991 to 2002.............",
+        "Current situation \u2013 challenges to effective local self-government ........................................."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 4: The social sector and the challenges of decentralization .......................................... Education........................................",
+      "summary_under_100_words": "Chapter 4: The social sector and the challenges of decentralization .......................................... Education....................................................................................................................................................... Enrolment, attainment and inequalities .............................................................................. Education at the local level................................................................................................... .... Teaching in \u2018mother-tongue\u2019 ................................................................................................... Vocational education and local labour market needs.................................................... Decentralization of education \u2013 a basic precondition for local human development .................................................................................................................. Health Care ................................................................................................................................................... Health care and quality of life of the population ............................................................. Health care at the local level .................................................................................................... Challenges facing the public health care sector and the reform agenda............... Chapter 5: Towards sustainable local development ............................................................................ Administrative",
+      "key_points": [
+        "Chapter 4: The social sector and the challenges of decentralization ..........................................",
+        "Decentralization of education \u2013 a basic precondition for local human development ..................................................................................................................",
+        "Health care and quality of life of the population ............................................................."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 1",
+      "summary_under_100_words": "Chapter 1 [Page 11] INTRODUCTION Local development is at the heart of the policy and political discussions on decentralization in Macedonia. The 2004 National Human Development Report (NHDR) focuses on local development in order to add the human development perspective to the current discussions. Concentrating on local development and good governance, this report is a step forward in comparison with previous reports on human development in Macedonia. In addition to the Human Development Index (HDI) the 2004 Report also calculates the Gender-related Development Index (GDI)",
+      "key_points": [
+        "Chapter 1\n\n[Page 11]\nINTRODUCTION Local development is at the heart of the policy and political discussions on decentralization in Macedonia.",
+        "The 2004 National Human Development Report (NHDR) focuses on local development in order to add the human development perspective to the current discussions.",
+        "Concentrating on local development and good governance, this report is a step forward in comparison with previous reports on human development in Macedonia."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 2 outlines the human development profile in the country and in selected municipalities. Chapters 3 and 4 give a detailed picture of the dimensions of hu",
+      "summary_under_100_words": "Chapter 2 outlines the human development profile in the country and in selected municipalities. Chapters 3 and 4 give a detailed picture of the dimensions of human development. The first provides an economic analysis of incomes and poverty, employment, and unemployment. Given the particular challenges of transition in Macedonia, this chapter analyses the quality of life in transition and concentrates on poverty, inequality, unemployment, employment, and the pension system. Chapter 4 analyses the social dimensions, including education and health. Where possible, i.e. where data is",
+      "key_points": [
+        "Chapter 2 outlines the human development profile in the country and in selected municipalities.",
+        "Chapters 3 and 4 give a detailed picture of the dimensions of human development.",
+        "The first provides an economic analysis of incomes and poverty, employment, and unemployment."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 6 suggests a set of approaches and recommendations regarding decentralization and local governance reform. METHODOLOGY OF DISAGGREGATED ANALYSIS AND MUN",
+      "summary_under_100_words": "Chapter 6 suggests a set of approaches and recommendations regarding decentralization and local governance reform. METHODOLOGY OF DISAGGREGATED ANALYSIS AND MUNICIPALITY SAMPLE It is neither possible nor necessary to apply the analysis for all 123 municipalities in Macedonia. First of all, many of them are too small and data on major indicators are not available (or not relevant). Second, the report production process coincided with the debate on the new administrative division of the country and the NHDR team found it more important to outline",
+      "key_points": [
+        "Chapter 6 suggests a set of approaches and recommendations regarding decentralization and local governance reform.",
+        "METHODOLOGY OF DISAGGREGATED ANALYSIS AND MUNICIPALITY SAMPLE It is neither possible nor necessary to apply the analysis for all 123 municipalities in Macedonia.",
+        "First of all, many of them are too small and data on major indicators are not available (or not relevant)."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 1 Decentralization and local development in Macedonia CHAPTER 1",
+      "summary_under_100_words": "Chapter 1 Decentralization and local development in Macedonia CHAPTER 1 [Page 20] political processes. Broader public involvement is very important, since this leads to the augmentation of the professional and working potential in the exercise of powers; at the same time it stimulates the motivation to participate, since everyone who takes part in such processes would be accountable for and subject to the impacts of these activities. Subsidiarity is also the guiding principle of EU governance, aiming at strengthening bottom-up governance and national democratic institutions.",
+      "key_points": [
+        "Chapter 1 Decentralization and local development in Macedonia CHAPTER 1\n\n[Page 20]\npolitical processes.",
+        "Broader public involvement is very important, since this leads to the augmentation of the professional and working potential in the exercise of powers; at the same time it stimulates the motivation to participate, since everyone who takes part in such processes would be accountable for and subject to the impacts of these activities.",
+        "Subsidiarity is also the guiding principle of EU governance, aiming at strengthening bottom-up governance and national democratic institutions."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 1 Territorial division according to the Law on Territories of the Regions and Municipalities in People's Republic of Macedonia, (Official Gazette N\u00b0 20,",
+      "summary_under_100_words": "Chapter 1 Territorial division according to the Law on Territories of the Regions and Municipalities in People's Republic of Macedonia, (Official Gazette N\u00b0 20, 1955) Source: Nova Makedonija, 30 June 1997 [Page 21] material and normative autonomy of municipalities. Small and underdeveloped municipalities could not cope with the increased competencies and were abolished. At the same time big cities were split into several municipalities and their links with their surroundings were stimulated in order to have an impact on their development. The local self-government had",
+      "key_points": [
+        "Chapter 1 Territorial division according to the Law on Territories of the Regions and Municipalities in People's Republic of Macedonia, (Official Gazette N\u00b0 20, 1955) Source: Nova Makedonija, 30 June 1997\n\n[Page 21]\nmaterial and normative autonomy of municipalities.",
+        "Small and underdeveloped municipalities could not cope with the increased competencies and were abolished.",
+        "At the same time big cities were split into several municipalities and their links with their surroundings were stimulated in order to have an impact on their development."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 1 Box 1.1: CIVIL SOCIETY IN THE SOCIALIST PERIOD Contrary to common perceptions that civil society appeared in Macedonia only once it gained its indepen",
+      "summary_under_100_words": "Chapter 1 Box 1.1: CIVIL SOCIETY IN THE SOCIALIST PERIOD Contrary to common perceptions that civil society appeared in Macedonia only once it gained its independence, citizens\u2019 associations and organizations (CAO) played an important role already during the socialist period. Often mobilized by ruling political organizations, they frequently responded to needs, which could not sufficiently be taken care of by the state. Besides their nominal role in fields as diverse as culture, education, sports or voluntary firemen, CAOs played an important role in integrating citizens",
+      "key_points": [
+        "Chapter 1 Box 1.1: CIVIL SOCIETY IN THE SOCIALIST PERIOD Contrary to common perceptions that civil society appeared in Macedonia only once it gained its independence, citizens\u2019 associations and organizations (CAO) played an important role already during the socialist period.",
+        "Often mobilized by ruling political organizations, they frequently responded to needs, which could not sufficiently be taken care of by the state.",
+        "Besides their nominal role in fields as diverse as culture, education, sports or voluntary firemen, CAOs played an important role in integrating citizens into modern society and to help to legitimize the political system."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 1 Territorial division since 1996 with 123 municipalities. Source: State Statistical Office",
+      "summary_under_100_words": "Chapter 1 Territorial division since 1996 with 123 municipalities. Source: State Statistical Office [Page 23] local self-government laws have been passed: one in 1995 and one in 2002. The map of the territory of municipalities was changed in 1996, and there is a new reform of territorial organization currently under way. Work is also progressing on a number of laws designed to facilitate the decentralization process in Macedonia. The Ohrid Framework Agreement that put an end to the armed interethnic conflict in the country in",
+      "key_points": [
+        "Chapter 1 Territorial division since 1996 with 123 municipalities.",
+        "Source: State Statistical Office\n\n[Page 23]\nlocal self-government laws have been passed: one in 1995 and one in 2002.",
+        "The map of the territory of municipalities was changed in 1996, and there is a new reform of territorial organization currently under way."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 1 Table 1.1: The competencies of municipalities as envisaged in two constitutions Competency Art. 115 from the 1991 Constitution Amendment XVII from 200",
+      "summary_under_100_words": "Chapter 1 Table 1.1: The competencies of municipalities as envisaged in two constitutions Competency Art. 115 from the 1991 Constitution Amendment XVII from 2001 Public Services X Urban Planning X X Rural Planning X Protection of environment X Local Economic Development X Local Financing X Communal activities X X Culture X X Sport X X Social and child care X X Education Pre-school and primary education X Education X Health Primary health care X Health care X Other areas specified in the law X X",
+      "key_points": [
+        "Chapter 1 Table 1.1: The competencies of municipalities as envisaged in two constitutions Competency Art.",
+        "115 from the 1991 Constitution Amendment XVII from 2001 Public Services X Urban Planning X X Rural Planning X Protection of environment X Local Economic Development X Local Financing X Communal activities X X Culture X X Sport X X Social and child care X X Education Pre-school and primary education X Education X Health Primary health care X Health care X Other areas specified in the law X X\n\n[Page 24]\nNational Human Development Report 2004, Macedonia24"
+      ]
+    },
+    {
+      "chapter_title": "Chapter 1 1. Urban and rural planning Planning, issuance of permits to construct buildings of local significance as specified in the law on definition of space ",
+      "summary_under_100_words": "Chapter 1 1. Urban and rural planning Planning, issuance of permits to construct buildings of local significance as specified in the law on definition of space and land for construction; 2. Protection of the environment and nature conservation Measures of protection and prevention from water, air, land pollution, nature conservation protection against noise pollution and ionizing radiation; 3. Planning and management of local economic development Planning of the local economic development; specification of development and structural priorities, local economic policy management; support of development of",
+      "key_points": [
+        "Urban and rural planning Planning, issuance of permits to construct buildings of local significance as specified in the law on definition of space and land for construction; 2.",
+        "Protection of the environment and nature conservation Measures of protection and prevention from water, air, land pollution, nature conservation protection against noise pollution and ionizing radiation; 3.",
+        "Planning and management of local economic development Planning of the local economic development; specification of development and structural priorities, local economic policy management; support of development of small and medium enterprises and of entrepreneurship at the local level and in that context participation in the establishment and development of the local network of institutions and agencies and promotion of partnerships; 4."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 1 Population number Number of council members Up to 5,000 9 5,001 to 10,000 11 10,001 to 20,000 15 20,001 to 40,000 19 40,001 do 60,000 23 60,001 to 80,",
+      "summary_under_100_words": "Chapter 1 Population number Number of council members Up to 5,000 9 5,001 to 10,000 11 10,001 to 20,000 15 20,001 to 40,000 19 40,001 do 60,000 23 60,001 to 80,000 27 80,001 to 100,000 31 Above 100,000 33 Table 1.3: Number of municipal council members [Page 26] Financing Financial sufficiency depends on the overall financial capacity of a country for the simple reason that a local self-government obtains its revenue from the economic sector, and from the citizens, who pay charges and fees for",
+      "key_points": [
+        "Chapter 1 Population number Number of council members Up to 5,000 9 5,001 to 10,000 11 10,001 to 20,000 15 20,001 to 40,000 19 40,001 do 60,000 23 60,001 to 80,000 27 80,001 to 100,000 31 Above 100,000 33 Table 1.3: Number of municipal council members\n\n[Page 26]\nFinancing Financial sufficiency depends on the overall financial capacity of a country for the simple reason that a local self-government obtains its revenue from the economic sector, and from the citizens, who pay charges and fees for various utility and administrative services.",
+        "Although the economic factors are not the only criterion, it is difficult to achieve financial sufficiency if the gross domestic product per capita is relatively low as is the case in Macedonia.",
+        "Local self-governments are therefore expected to face financial insufficiency and presumably reduced financial autonomy."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 1 Box 1.2: Sources of revenue for the Macedonian local government 1. Taxes11 \u0093 property tax \u0093 inheritance and gift tax \u0093 tax on real estate and rights t",
+      "summary_under_100_words": "Chapter 1 Box 1.2: Sources of revenue for the Macedonian local government 1. Taxes11 \u0093 property tax \u0093 inheritance and gift tax \u0093 tax on real estate and rights transactions 2. Fees (charges) and other revenues \u0093 land fee (construction site utilization charge) \u0093 communal fee (construction site arrangement charge) \u0093 property revenue, etc. \u0093 earnings from public enterprises founded by the local self-government unit (charges for providing local services/local public transportation, water supply, sewerage, waste disposal, etc.) 3. Funds received from state bodies or",
+      "key_points": [
+        "Chapter 1 Box 1.2: Sources of revenue for the Macedonian local government 1.",
+        "Taxes11 \u0093 property tax \u0093 inheritance and gift tax \u0093 tax on real estate and rights transactions 2.",
+        "Fees (charges) and other revenues \u0093 land fee (construction site utilization charge) \u0093 communal fee (construction site arrangement charge) \u0093 property revenue, etc."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 1",
+      "summary_under_100_words": "Chapter 1 [Page 28] municipalities face a lack of qualified staff, while the newer municipalities lack personnel in general. Citizens are aware of the importance of the local elections as evidenced by 60 percent voter turnout during the last local elections in September 2000. All the other opportunities of their involvement in the local processes remain unused; citizens do not utilize all the ways of direct participation, such as citizens\u2019 initiative, public meetings of citizens and referenda, for various reasons (see Table 3 in the",
+      "key_points": [
+        "Chapter 1\n\n[Page 28]\nmunicipalities face a lack of qualified staff, while the newer municipalities lack personnel in general.",
+        "Citizens are aware of the importance of the local elections as evidenced by 60 percent voter turnout during the last local elections in September 2000.",
+        "All the other opportunities of their involvement in the local processes remain unused; citizens do not utilize all the ways of direct participation, such as citizens\u2019 initiative, public meetings of citizens and referenda, for various reasons (see Table 3 in the Annex p."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 1 Box 1.3: What does effective local self-government mean? An effective local self-government is that which to a great extent meets those needs of the c",
+      "summary_under_100_words": "Chapter 1 Box 1.3: What does effective local self-government mean? An effective local self-government is that which to a great extent meets those needs of the citizens which are of local importance. An effective local self-government is a product of the strategy and actions of the state authorities and local structures, since the State: Regulates the layout and way of functioning of the local authorities, meaning that the state authorities profile the local self-government (determines its bodies and organizations, the manner of their establishment and",
+      "key_points": [
+        "Chapter 1 Box 1.3: What does effective local self-government mean?",
+        "An effective local self-government is that which to a great extent meets those needs of the citizens which are of local importance.",
+        "An effective local self-government is a product of the strategy and actions of the state authorities and local structures, since the State: Regulates the layout and way of functioning of the local authorities, meaning that the state authorities profile the local self-government (determines its bodies and organizations, the manner of their establishment and operations, etc.); Coordinates or harmonizes its development."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 1 Box. 1.4: The Ohrid Peace Framework Agreement as a preventive approach to interethnic disputes and a precondition for Euro-Atlantic integration of Mac",
+      "summary_under_100_words": "Chapter 1 Box. 1.4: The Ohrid Peace Framework Agreement as a preventive approach to interethnic disputes and a precondition for Euro-Atlantic integration of Macedonia The Ohrid Peace Framework Agreement (OPFA) opened a new page in the political history of Macedonia, as a post-conflict framework to build a democratic and multiethnic society. The two main pillars of the OPFA were and remain to be, the following: End of war, and Building a peaceful, democratic and multiethnic Macedonia. While the first part was realized with the actual",
+      "key_points": [
+        "1.4: The Ohrid Peace Framework Agreement as a preventive approach to interethnic disputes and a precondition for Euro-Atlantic integration of Macedonia The Ohrid Peace Framework Agreement (OPFA) opened a new page in the political history of Macedonia, as a post-conflict framework to build a democratic and multiethnic society.",
+        "The two main pillars of the OPFA were and remain to be, the following: End of war, and Building a peaceful, democratic and multiethnic Macedonia.",
+        "While the first part was realized with the actual signing of the Ohrid Framework Agreement itself, the second pillar still remains one of the main political challenges, which needs to be addressed through its continual implementation, begun in 2001."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 1 Box 1.5: Management and coordination structure in the decentralization process The working group for decentralization, chaired by the State Secretary ",
+      "summary_under_100_words": "Chapter 1 Box 1.5: Management and coordination structure in the decentralization process The working group for decentralization, chaired by the State Secretary of the Ministry of Local SelfGovernment, is in charge of the formulation of proposals and initiatives related to the transfer of competencies, management of competencies, adoption of laws determined by this Programme and the working policy in the decentralization process. The coordination body for decentralization, chaired by the Minister of Local Self-Government, has the role to give directions, advices, frameworks in relation to",
+      "key_points": [
+        "Chapter 1 Box 1.5: Management and coordination structure in the decentralization process The working group for decentralization, chaired by the State Secretary of the Ministry of Local SelfGovernment, is in charge of the formulation of proposals and initiatives related to the transfer of competencies, management of competencies, adoption of laws determined by this Programme and the working policy in the decentralization process.",
+        "The coordination body for decentralization, chaired by the Minister of Local Self-Government, has the role to give directions, advices, frameworks in relation to the activites within the decentralization process, to support the working group and the ministries involved.",
+        "The Deputy Prime Minister of Macedonia, responsible for the decentralization process and the Minister of Local Self-Government, shall present the previously agreed views to the Government."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 1 1. Gordana Siljanovska-Davkova, Vladimir Mitkov: Local Self-Government, Magor, Skopje, 2000, p. 17. 2. General Law on People\u2019s Committees, Official Jo",
+      "summary_under_100_words": "Chapter 1 1. Gordana Siljanovska-Davkova, Vladimir Mitkov: Local Self-Government, Magor, Skopje, 2000, p. 17. 2. General Law on People\u2019s Committees, Official Journal of FNRJ, no. 43-46. 3. General Law on People\u2019s Committees, Official Journal of FNRJ, no, br. 49-49. 4. Classical competencies here refers to compentences oriented towards meeting the communal, social security and cultural requi rements of the local population including keeping public order on the territory of the municipality, fire protection, protection of floods and other elemental disasters, etc. 5. Raichevie, Bozidar/Mijatovic, Bosko,",
+      "key_points": [
+        "Gordana Siljanovska-Davkova, Vladimir Mitkov: Local Self-Government, Magor, Skopje, 2000, p.",
+        "General Law on People\u2019s Committees, Official Journal of FNRJ, no.",
+        "General Law on People\u2019s Committees, Official Journal of FNRJ, no, br."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 2 Human Development Profile in a decentralized perspective CHAPTER 2",
+      "summary_under_100_words": "Chapter 2 Human Development Profile in a decentralized perspective CHAPTER 2 [Page 34] There are cases of countries with a high level of human development and a moderate level of income per capita. Conversely, the opposite also exists, whereby a country may have a low level of human development and a high level of income per capita (see Tables 2.1 and 2.2). The way a country reaches its particular level of human development is important for two reasons. First, it reflects the specific national development",
+      "key_points": [
+        "Chapter 2 Human Development Profile in a decentralized perspective CHAPTER 2\n\n[Page 34]\nThere are cases of countries with a high level of human development and a moderate level of income per capita.",
+        "Conversely, the opposite also exists, whereby a country may have a low level of human development and a high level of income per capita (see Tables 2.1 and 2.2).",
+        "The way a country reaches its particular level of human development is important for two reasons."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 2 Country GDP per capita (PPP) HDI Croatia 9,170 0.818 Poland 9,450 0.841 Estonia 10,170 0.833 Lithuania 8,470 0.824 Uruguay 8,400 0.834 Chile 9,190 0.8",
+      "summary_under_100_words": "Chapter 2 Country GDP per capita (PPP) HDI Croatia 9,170 0.818 Poland 9,450 0.841 Estonia 10,170 0.833 Lithuania 8,470 0.824 Uruguay 8,400 0.834 Chile 9,190 0.831 Kuwait 18,700 0.820 Qatar 19,844 0.826 United Arab Emirates 20,530 0.816 Table 2.1: Different levels of GDP with similar Human Development Index (HDI) Source: Human Development Report (2003), UNDP. Country GDP per capita (PPP) HDI Canada 27,130 0.937 Norway 29,620 0.944 USA 34,320 0.937 Australia 25,370 0.939 Iceland 29,990 0.942 Sweden 24,180 0.941 Belgium 25,520 0.937 Table 2.2: High",
+      "key_points": [
+        "Chapter 2 Country GDP per capita (PPP) HDI Croatia 9,170 0.818 Poland 9,450 0.841 Estonia 10,170 0.833 Lithuania 8,470 0.824 Uruguay 8,400 0.834 Chile 9,190 0.831 Kuwait 18,700 0.820 Qatar 19,844 0.826 United Arab Emirates 20,530 0.816 Table 2.1: Different levels of GDP with similar Human Development Index (HDI) Source: Human Development Report (2003), UNDP.",
+        "Country GDP per capita (PPP) HDI Canada 27,130 0.937 Norway 29,620 0.944 USA 34,320 0.937 Australia 25,370 0.939 Iceland 29,990 0.942 Sweden 24,180 0.941 Belgium 25,520 0.937 Table 2.2: High GDP with high Human Development Index (HDI) Source: Human Development Report (2003), UNDP.",
+        "[Page 35]\nMacedonia, an analysis of the human development profile and of broader socio-economic indicators of a representative sample of municipalities was conducted (see Methodology of disaggregated analysis and municipality sample, p.12)."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 2 Life expectancy 73.5 Adult literacy rate (%) 96.0 Gross enrolment rate for all three education levels 70.0 Real GDP per capita (PPP$) 6,470 Table 2.3:",
+      "summary_under_100_words": "Chapter 2 Life expectancy 73.5 Adult literacy rate (%) 96.0 Gross enrolment rate for all three education levels 70.0 Real GDP per capita (PPP$) 6,470 Table 2.3: Components required for the calculation of HDI in Macedonia \u2013 2002 Note: Calculations made on the basis of data provided by State Statistical Office, Census 2002 and Education Statistics Note: Calculations made on the basis of data provided by State Statistical Office, Census 2002 and Education Statistics Life expectancy index 0.81 Completed education index 0.87 Index of adjusted",
+      "key_points": [
+        "Chapter 2 Life expectancy 73.5 Adult literacy rate (%) 96.0 Gross enrolment rate for all three education levels 70.0 Real GDP per capita (PPP$) 6,470 Table 2.3: Components required for the calculation of HDI in Macedonia \u2013 2002 Note: Calculations made on the basis of data provided by State Statistical Office, Census 2002 and Education Statistics Note: Calculations made on the basis of data provided by State Statistical Office, Census 2002 and Education Statistics Life expectancy index 0.81 Completed education index 0.87 Index of adjusted real GDP per capita (PPP$) 0.70 HDI 0.793 Table 2.4: Human Development Index (HDI) of Macedonia for 2002 Sources: State Statistical Office and Human Development Reports, UNDP (1993-2003)\n\n[Page 36]\nNational Human Development Report 2004, Macedonia36"
+      ]
+    },
+    {
+      "chapter_title": "Chapter 2 Municipality Completed education index Index of adjusted real GDP per capita (PPP$) HDI Municipalities with high HDI level Skopje 0.930 0.730 0.822 Oh",
+      "summary_under_100_words": "Chapter 2 Municipality Completed education index Index of adjusted real GDP per capita (PPP$) HDI Municipalities with high HDI level Skopje 0.930 0.730 0.822 Ohrid 0.920 0.690 0.806 Gevgelija 0.930 0.680 0.803 Bitola 0.900 0.700 0.801 Gostivar 0.880 0.720 0.800 Municipalities with middle HDI level Tetovo 0.890 0.700 0.798 Stip 0.910 0.680 0.796 Debar 0.900 0.690 0.796 Strumica 0.870 0.710 0.794 Kavadarci 0.900 0.680 0.793 Prilep 0.880 0.680 0.790 Bogdanci 0.880 0.680 0.790 Veles 0.890 0.680 0.789 Rostusa 0.880 0.690 0.788 Kumanovo 0.870 0.690 0.787",
+      "key_points": [
+        "Chapter 2 Municipality Completed education index Index of adjusted real GDP per capita (PPP$) HDI Municipalities with high HDI level Skopje 0.930 0.730 0.822 Ohrid 0.920 0.690 0.806 Gevgelija 0.930 0.680 0.803 Bitola 0.900 0.700 0.801 Gostivar 0.880 0.720 0.800 Municipalities with middle HDI level Tetovo 0.890 0.700 0.798 Stip 0.910 0.680 0.796 Debar 0.900 0.690 0.796 Strumica 0.870 0.710 0.794 Kavadarci 0.900 0.680 0.793 Prilep 0.880 0.680 0.790 Bogdanci 0.880 0.680 0.790 Veles 0.890 0.680 0.789 Rostusa 0.880 0.690 0.788 Kumanovo 0.870 0.690 0.787 Kocani 0.880 0.680 0.787 Probistip 0.870 0.680 0.784 Tearce 0.840 * 0.776 Cucer Sandevo 0.830 * 0.774 Makedonska Kamenica 0.820 * 0.770 Municipalities with low HDI level Novo Selo 0.790 * 0.759 Rosoman 0.790 * 0.759 Dolneni 0.750 * 0.745 Zajas 0.730 0.680 0.737 T able 2.5: Human Development Index (HDI) in Macedonia for 2002 Correlation analysis however is feasible and could provide an idea of the existing disparities determined by ethnic composition \u2013 or, seen from another angle, of the different development opportunities, which are available to the different ethnicities.",
+        "Table 2.8 shows the correlation between the HDI levels and the share of main ethnic groups in the sample of analysed municipalities.",
+        "Data suggests that a weak but statistically significant correlation exists between the proportion of the ethnic Macedonian population in a municipality and its level of HDI."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 2 Type of municipality Urban Rural Life expectancy 73.05* 73.05* Adult literacy rate (%) 94.81 90.63 Gross enrolment rate for all three education levels",
+      "summary_under_100_words": "Chapter 2 Type of municipality Urban Rural Life expectancy 73.05* 73.05* Adult literacy rate (%) 94.81 90.63 Gross enrolment rate for all three education levels 78.52 62.36 Real GDP per capita (PPP $) 6,418 5,926 Table 2.6: Components required for the calculation of the HDI per type of municipality \u2013 2002 Type of municipality Urban Rural Life expectancy index 0.8 0.8 Completed education index 0.89 0.81 Index of adjusted real GDP per capita (PPP$) 0.69 0.68 HDI 0.796 0.765 Table 2.7: Human Development Index (HDI)",
+      "key_points": [
+        "Chapter 2 Type of municipality Urban Rural Life expectancy 73.05* 73.05* Adult literacy rate (%) 94.81 90.63 Gross enrolment rate for all three education levels 78.52 62.36 Real GDP per capita (PPP $) 6,418 5,926 Table 2.6: Components required for the calculation of the HDI per type of municipality \u2013 2002 Type of municipality Urban Rural Life expectancy index 0.8 0.8 Completed education index 0.89 0.81 Index of adjusted real GDP per capita (PPP$) 0.69 0.68 HDI 0.796 0.765 Table 2.7: Human Development Index (HDI) per type of municipality for 2002 Macedonians 0.249046042 Albanians - 0.24670743 Turks - 0.05984048 Roma 0.468056436 Vlachs Serbs - 0.12474693 Bosniaks - 0.36896366 Other 0.363993235 Table 2.8: Correlation of HDI levels and share of main ethnic groups (sample of municipalities) 0.313470002 * Note: Due to the lack of statistical data for the life expectancy for the rural and urban municipalities the country average is taken for estimations."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 2 Box 2.1: The temptation and problems with HDI disaggregation HDI is definitely a great advocacy tool. Thanks to its composite nature HDI can be an ade",
+      "summary_under_100_words": "Chapter 2 Box 2.1: The temptation and problems with HDI disaggregation HDI is definitely a great advocacy tool. Thanks to its composite nature HDI can be an adequate tool for better reflecting the multidimensionality of real life. In order to become a policy tool however, HDI should suggest different policy options. For that purpose HDI disaggregation is necessary. A national level HDI gives an idea where a country stands vis-\u00e0-vis other countries, which though of interest, has less interpretive value within the country. Disaggregated at",
+      "key_points": [
+        "Chapter 2 Box 2.1: The temptation and problems with HDI disaggregation HDI is definitely a great advocacy tool.",
+        "Thanks to its composite nature HDI can be an adequate tool for better reflecting the multidimensionality of real life.",
+        "In order to become a policy tool however, HDI should suggest different policy options."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 2 HDI GDI (equally distributed) Difference Life expectancy index 0.810 0.799 0.011 Completed education index 0.870 0.868 0.002 Index of adjusted real GD",
+      "summary_under_100_words": "Chapter 2 HDI GDI (equally distributed) Difference Life expectancy index 0.810 0.799 0.011 Completed education index 0.870 0.868 0.002 Index of adjusted real GDP per capita (PPP$) 0.700 0.682 0.018 Index value 0.793 0.783 0.010 Table 2.11: HDI and GDI components\u2019 differences Life expectancy index - women 0.803 Life expectancy index - men 0.795 Completed education index - women 0.849 Completed education index - men 0.888 Revenues index - women 0.630 Revenues index - men 0.743 Index of equally distributed life expectancy 0.799 Index of",
+      "key_points": [
+        "Chapter 2 HDI GDI (equally distributed) Difference Life expectancy index 0.810 0.799 0.011 Completed education index 0.870 0.868 0.002 Index of adjusted real GDP per capita (PPP$) 0.700 0.682 0.018 Index value 0.793 0.783 0.010 Table 2.11: HDI and GDI components\u2019 differences Life expectancy index - women 0.803 Life expectancy index - men 0.795 Completed education index - women 0.849 Completed education index - men 0.888 Revenues index - women 0.630 Revenues index - men 0.743 Index of equally distributed life expectancy 0.799 Index of equally distributed education 0.868 Index of equally distributed revenue 0.682 GDI 0.783 Table 2.10: GDI for Macedonia for 2002 Women Men Difference Life expectancy index 0.803 0.795 0.008 Completed education index 0.849 0.888 -0.039 Revenue index 10 0.630 0.743 -0.113 Table 2.12: GDI components\u2019 distance for Macedonia for 2002 1.",
+        "One has to take into account its deficiencies as well, such as the incapacity to reflect the distributive effects of the deve lopment (the inequality) and to measure the deprivations aspects of the development.",
+        "Sen it is important to distin guish between the use of HDI as an index and the overall concept of human development."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 3 Income, employment and local economic development from a human development perspective CHAPTER 3 Source: Macroeconomic policies of the Government and ",
+      "summary_under_100_words": "Chapter 3 Income, employment and local economic development from a human development perspective CHAPTER 3 Source: Macroeconomic policies of the Government and National Bank Reports [Page 42] percent. Agriculture retained its high share at the beginning of the transitional period, but recently it has been exhibiting a tendency towards decline; in 2002 its share amounted to about 11 percent. The reduced agricultural production is mostly due to the instability of the prices and sale of agricultural products. Lastly, the construction sector\u2019s proportion of the GDP",
+      "key_points": [
+        "Chapter 3 Income, employment and local economic development from a human development perspective CHAPTER 3 Source: Macroeconomic policies of the Government and National Bank Reports\n\n[Page 42]\npercent.",
+        "Agriculture retained its high share at the beginning of the transitional period, but recently it has been exhibiting a tendency towards decline; in 2002 its share amounted to about 11 percent.",
+        "The reduced agricultural production is mostly due to the instability of the prices and sale of agricultural products."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 3 Source: Statistical annual books of the Republic of Macedonia (1996-2003) Source: Calculations based on a survey of household expenditure (2002), Stat",
+      "summary_under_100_words": "Chapter 3 Source: Statistical annual books of the Republic of Macedonia (1996-2003) Source: Calculations based on a survey of household expenditure (2002), State Statistical Office. [Page 43] 70 percent of the median. The discrepancy in registered incomes and expenditure reflects the magnitude of the informal sector in economy. The poverty gap index shows similar differences; it amounts to 11.17 percent if based on income estimates and 5.4 percent if based upon expenditure estimates. The Foster-Greer-Thorbecke index (PGT2) measures the severity of poverty and shows the",
+      "key_points": [
+        "Chapter 3 Source: Statistical annual books of the Republic of Macedonia (1996-2003) Source: Calculations based on a survey of household expenditure (2002), State Statistical Office.",
+        "The discrepancy in registered incomes and expenditure reflects the magnitude of the informal sector in economy.",
+        "The poverty gap index shows similar differences; it amounts to 11.17 percent if based on income estimates and 5.4 percent if based upon expenditure estimates."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 3 Source (Expenditure-based): Household Budget Survey 2001, State Statistical Office. The recently released expenditure-based head count index for 2002 ",
+      "summary_under_100_words": "Chapter 3 Source (Expenditure-based): Household Budget Survey 2001, State Statistical Office. The recently released expenditure-based head count index for 2002 is 30.2 procent. Note that the State Statistical Office chang ed its method of calculation which explains to a certian extent differences compared with previous years. Source: Household budget survey in Macedonia 2002, State Statistical Office Income-based Expenditure-based* Head count index 33.54% 22.7% Poverty Gap index (PG) 11.17% 5.4% Foster-Greer-Thorbecke index (PGT2) 5.18% 2.0% Table 3.1: Poverty in Macedonia, Relative method (2001) \u2013 by households",
+      "key_points": [
+        "Chapter 3 Source (Expenditure-based): Household Budget Survey 2001, State Statistical Office.",
+        "The recently released expenditure-based head count index for 2002 is 30.2 procent.",
+        "Note that the State Statistical Office chang ed its method of calculation which explains to a certian extent differences compared with previous years."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 3 1983 1988 1990 1995 2000 2001 100.0 100.0 100.0 100.0 100.0 100.0 Food 40.4 37.5 37.6 40.9 38.4 40.6 Drinks 3.1 3.1 3.7 3.7 4.3 4.9 Tobacco 1.9 1.8 2.",
+      "summary_under_100_words": "Chapter 3 1983 1988 1990 1995 2000 2001 100.0 100.0 100.0 100.0 100.0 100.0 Food 40.4 37.5 37.6 40.9 38.4 40.6 Drinks 3.1 3.1 3.7 3.7 4.3 4.9 Tobacco 1.9 1.8 2.4 2.8 3.3 3.3 Clothes and shoes 6.8 7.8 8.6 6.3 5.7 6.4 Housing 2.2 1.9 1.5 1.9 2.0 1.7 Heating and lighting 6.2 7.8 7.0 7.5 8.2 7.9 Home furnishings 4.3 4.2 2.9 2.1 1.6 1.9 Hygiene and health care 2.3 3.0 3.1 4.2 5.8 6.2 Education and culture 2.9 3.3 4.2 2.6",
+      "key_points": [
+        "Chapter 3 1983 1988 1990 1995 2000 2001 100.0 100.0 100.0 100.0 100.0 100.0 Food 40.4 37.5 37.6 40.9 38.4 40.6 Drinks 3.1 3.1 3.7 3.7 4.3 4.9 Tobacco 1.9 1.8 2.4 2.8 3.3 3.3 Clothes and shoes 6.8 7.8 8.6 6.3 5.7 6.4 Housing 2.2 1.9 1.5 1.9 2.0 1.7 Heating and lighting 6.2 7.8 7.0 7.5 8.2 7.9 Home furnishings 4.3 4.2 2.9 2.1 1.6 1.9 Hygiene and health care 2.3 3.0 3.1 4.2 5.8 6.2 Education and culture 2.9 3.3 4.2 2.6 3.1 2.9 Transport and communications 6.4 6.5 6.0 8.3 9.7 9.5 Other goods and services 2.8 2.5 2.9 1.7 2.8 2.5 Membership fees, etc.",
+        "0.4 0.5 0.1 0.0 0.0 0.0 Taxes and charges 1.2 1.6 0.9 0.7 0.4 0.4 Losses, presents, etc.",
+        "0.5 0.4 0.3 0.2 1.0 0.6 Charges for apartment, house and property 5.7 3.8 3.0 3.2 5.0 2.6 Repayment of credits and loans 1.9 1.0 0.8 0.3 0.7 0.4 Savings 11.1 14.0 14.9 13.8 8.2 8.1 Table 3.2: Use of the disposable funds per average household \u2013 breakdown Source: Household budget survey in Macedonia 2002, State Statistical Office Source: Houshold Budget Survey in Macedonia, 2002, State Statistical Office\n\n[Page 45]\nstandards but rather enhancing people\u2019s capacities to reach and maintain higher living standards through retaining the existing high levels of human capital; for example wide computer usage and access to Internet will be increasingly important for individual\u2019s life chances and labour market competitiveness."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 3 1996 1997 1998 1999 2000 2001 2002 2003 Unemployment rate Total 31.9 36.0 34.5 32.4 32.2 30.5 31.9 36.7 Male 29.1 33.0 32.5 31.9 30.5 29.5 31.7 37.0 F",
+      "summary_under_100_words": "Chapter 3 1996 1997 1998 1999 2000 2001 2002 2003 Unemployment rate Total 31.9 36.0 34.5 32.4 32.2 30.5 31.9 36.7 Male 29.1 33.0 32.5 31.9 30.5 29.5 31.7 37.0 Female 36.2 40.8 37.6 33.3 34.9 32.0 32.3 36.3 Employment rate Total 37.4 34.4 35.9 35.9 35.8 38.6 35.8 34.5 Male 47.5 44.6 45.4 44.6 44.7 46.3 43.5 41.3 Female 27.4 24.4 26.3 27.2 27.1 30.9 28.1 27.7 Activity rates total 54.9 53.7 54.8 53.1 52.9 55.5 52.6 54.5 Male 67.0 66.5 67.4 65.5 64.4",
+      "key_points": [
+        "Chapter 3 1996 1997 1998 1999 2000 2001 2002 2003 Unemployment rate Total 31.9 36.0 34.5 32.4 32.2 30.5 31.9 36.7 Male 29.1 33.0 32.5 31.9 30.5 29.5 31.7 37.0 Female 36.2 40.8 37.6 33.3 34.9 32.0 32.3 36.3 Employment rate Total 37.4 34.4 35.9 35.9 35.8 38.6 35.8 34.5 Male 47.5 44.6 45.4 44.6 44.7 46.3 43.5 41.3 Female 27.4 24.4 26.3 27.2 27.1 30.9 28.1 27.7 Activity rates total 54.9 53.7 54.8 53.1 52.9 55.5 52.6 54.5 Male 67.0 66.5 67.4 65.5 64.4 65.6 63.7 65.6 Female 42.9 41.2 42.2 40.8 41.7 45.5 41.5 43.4 Table 3.3: Unemployment and employment rates and rates of activity by gender, 1996-2003 (%) Source: State Statistical Office: Labour Force Survey (1996-2003) Qualification 1996 1997 1998 1999 2000 2001 2002 2003 Total 100 100 100 100 100 100 100 100 Up to one year 19.30 16.91 17.06 16.16 16.67 13.14 15.48 14.9 Up to two years 27.78 29.93 15.25 13.58 13.64 12.08 11.23 9.9 Up to three years 8.4 9.55 12.25 10.89 9.32 9.96 10.53 11.7 Four and more 44.52 43.60 55.43 59.36 60.37 64.81 62.76 63.6 Table 3.4: Structure of the unemployment according to the length of unemployment (%) Source: State Statistical Offices, Survey on Labour (1996-2003)\n\n[Page 46]\nUNEMPLOYMENT Unemployment in Macedonia is one of the gravest and most difficult economic, social and political problems.",
+        "It was present before the transition, and over the past few years it has become even more pronounced and complex.",
+        "In addition to the limitations imposed by a lack of funds, the restructuring of ownership and production over the past decade has had a major effect on the unemployed, as has the poor private sector development, which has failed to develop sufficient powers to absorb workers."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 3 Source: Labour Force Survey, 2002",
+      "summary_under_100_words": "Chapter 3 Source: Labour Force Survey, 2002 [Page 47] inefficient operations of transformed enterprises and biased territorial distribution \u2013 two thirds of the population living on a third of the territory. Only Skopje has equal shares of the total unemployed population (23.02 percent) and of the total population of the country (23.1 percent). Kumanovo has 8.31 percent of the unemployed in Macedonia \u2013 but 5.1 percent of the population; Tetovo \u2013 respectively 8.23 and 3.5 percent; Prilep \u2013 respectively 7.03 and 3.6 percent; Strumica \u2013",
+      "key_points": [
+        "Chapter 3 Source: Labour Force Survey, 2002\n\n[Page 47]\ninefficient operations of transformed enterprises and biased territorial distribution \u2013 two thirds of the population living on a third of the territory.",
+        "Only Skopje has equal shares of the total unemployed population (23.02 percent) and of the total population of the country (23.1 percent).",
+        "Kumanovo has 8.31 percent of the unemployed in Macedonia \u2013 but 5.1 percent of the population; Tetovo \u2013 respectively 8.23 and 3.5 percent; Prilep \u2013 respectively 7.03 and 3.6 percent; Strumica \u2013 6.74 and 2.2 percent."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 3 Age group Number Share of total unemployed Of respective age group Cumulative Of respective age group Cumulative 15-19 21,664 21,664 7.7% 7.7% 20-24 5",
+      "summary_under_100_words": "Chapter 3 Age group Number Share of total unemployed Of respective age group Cumulative Of respective age group Cumulative 15-19 21,664 21,664 7.7% 7.7% 20-24 53,213 74,877 18.8% 26.4% 25-29 50,936 125,813 18.0% 44.4% 30-34 42,019 167,832 14.8% 59.3% 35-39 35,668 203,500 12.6% 71.9% 40-44 28,652 232,152 10.1% 82.0% 45-49 23,060 255,212 8.1% 90.1% 50-54 15,919 271,131 5.6% 95.8% 55-59 8,176 279,307 2.9% 98.6% 60-64 3,244 282,551 1.1% 99.8% 65-69 343 282,894 0.1% 99.9% Unknown 74 283,132 0.0% 100.0% Table 3.5: Unemployment in Macedonia \u2013",
+      "key_points": [
+        "Chapter 3 Age group Number Share of total unemployed Of respective age group Cumulative Of respective age group Cumulative 15-19 21,664 21,664 7.7% 7.7% 20-24 53,213 74,877 18.8% 26.4% 25-29 50,936 125,813 18.0% 44.4% 30-34 42,019 167,832 14.8% 59.3% 35-39 35,668 203,500 12.6% 71.9% 40-44 28,652 232,152 10.1% 82.0% 45-49 23,060 255,212 8.1% 90.1% 50-54 15,919 271,131 5.6% 95.8% 55-59 8,176 279,307 2.9% 98.6% 60-64 3,244 282,551 1.1% 99.8% 65-69 343 282,894 0.1% 99.9% Unknown 74 283,132 0.0% 100.0% Table 3.5: Unemployment in Macedonia \u2013 age profile Source: State Statistical Office, Census 2002\n\n[Page 48]\nUnemployment rates for the 20-24 year age group in different municipalities vary between 16 and 27 percent and for the 25-29 year age group \u2013 between 14 and 23 percent (Table 3.7).",
+        "Although the above employment data are derived from the census, and not from unemployment registries, it still should be interpreted with a high degree of caution.",
+        "For various reasons, particularly in a postconflict environment, people may be unwilling to reveal the real sources of their income and types of economic activity contributing to this income."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 3 Municipality Population Area( km2) Employment rate (2002 census) % Unemployment rate (2002 census) % GDP pc (PPP) Contributio n to GDP (PPP), % Urban ",
+      "summary_under_100_words": "Chapter 3 Municipality Population Area( km2) Employment rate (2002 census) % Unemployment rate (2002 census) % GDP pc (PPP) Contributio n to GDP (PPP), % Urban Tetovo 70,841 87 60.67 39.33 7,149 4.1 Kumanovo 103,205 300 53.82 46.18 6,354 5.3 Prilep 73,351 535 51.95 48.05 6,049 3.6 Kocani 33,689 255 61.19 38.81 6,049 1.6 Kavadarci 38,391 391 50.67 49.33 5,927 1.8 Strumica 45,087 105 59.48 40.52 7,088 2.6 Skopje 467,257 273 72.89 27.11 8,065 30.5 Gostivar 49,545 50 53.28 46.72 7,277 2.9 Debar 17,952 85",
+      "key_points": [
+        "Chapter 3 Municipality Population Area( km2) Employment rate (2002 census) % Unemployment rate (2002 census) % GDP pc (PPP) Contributio n to GDP (PPP), % Urban Tetovo 70,841 87 60.67 39.33 7,149 4.1 Kumanovo 103,205 300 53.82 46.18 6,354 5.3 Prilep 73,351 535 51.95 48.05 6,049 3.6 Kocani 33,689 255 61.19 38.81 6,049 1.6 Kavadarci 38,391 391 50.67 49.33 5,927 1.8 Strumica 45,087 105 59.48 40.52 7,088 2.6 Skopje 467,257 273 72.89 27.11 8,065 30.5 Gostivar 49,545 50 53.28 46.72 7,277 2.9 Debar 17,952 85 40.83 59.17 6,110 0.9 Ohrid 54,380 203 65.17 34.83 6,354 2.8 Bitola 86,408 229 66.57 33.43 6,538 4.6 Veles 57,602 507 60.50 39.50 5,927 2.8 Gevgelija 20,362 261 77.25 22.75 5,866 1 Stip 47,796 550 68.11 31.89 5,927 2.3 Probistip 12,765 198 67.68 32.32 5,927 0.6 Rural Rostusa 9,451 371 36.67 63.33 \u2013 \u2013 Tearce 22,454 136 37.71 62.29 \u2013 \u2013 Cucer-Sandevo 8,493 214 56.95 43.05 \u2013 \u2013 Zajas 11,605 155 32.92 67.08 5,988 0.98 Dolneni 11,583 389 24.14 75.86 \u2013 \u2013 Bogdanci 8,707 114 75.66 24.34 \u2013 \u2013 Rosoman 4,141 123 50.87 49.13 \u2013 \u2013 Mak.",
+        "Kamenica 8,110 189 71.01 28.99 \u2013 \u2013 Novo Selo 11,966 250 56.67 43.33 \u2013 \u2013 Table 3.6: Basic statistical and economic indicators Sources: State Statistical Office, 2002 census results and major macroeconomic indicators.",
+        "[Page 49]\nIncome, Employment and Local Economic Development 49"
+      ]
+    },
+    {
+      "chapter_title": "Chapter 3 15-19 years 20-24 years 25-29 years 30-34 years 35-39 years 40-44 years 45-49 years Urban Tetovo 6.5% 18.4% 17.8% 15.3% 14.1% 11.1% 7.5% Kumanovo 7.4%",
+      "summary_under_100_words": "Chapter 3 15-19 years 20-24 years 25-29 years 30-34 years 35-39 years 40-44 years 45-49 years Urban Tetovo 6.5% 18.4% 17.8% 15.3% 14.1% 11.1% 7.5% Kumanovo 7.4% 20.9% 19.8% 15.3% 12.2% 8.9% 6.9% Prilep 5.0% 16.9% 17.7% 15.2% 13.2% 11.0% 9.3% Kocani 7.5% 20.0% 19.4% 15.5% 12.6% 9.7% 7.9% Kavadarci 5.8% 16.0% 17.3% 15.6% 13.6% 11.2% 9.2% Strumica 9.3% 18.7% 16.0% 13.1% 11.9% 10.1% 9.5% Skopje 6.3% 18.2% 19.1% 15.1% 12.3% 9.7% 8.5% Gostivar 6.7% 18.1% 16.8% 15.1% 13.2% 11.6% 8.8% Debar 9.0% 17.7% 16.9%",
+      "key_points": [
+        "Chapter 3 15-19 years 20-24 years 25-29 years 30-34 years 35-39 years 40-44 years 45-49 years Urban Tetovo 6.5% 18.4% 17.8% 15.3% 14.1% 11.1% 7.5% Kumanovo 7.4% 20.9% 19.8% 15.3% 12.2% 8.9% 6.9% Prilep 5.0% 16.9% 17.7% 15.2% 13.2% 11.0% 9.3% Kocani 7.5% 20.0% 19.4% 15.5% 12.6% 9.7% 7.9% Kavadarci 5.8% 16.0% 17.3% 15.6% 13.6% 11.2% 9.2% Strumica 9.3% 18.7% 16.0% 13.1% 11.9% 10.1% 9.5% Skopje 6.3% 18.2% 19.1% 15.1% 12.3% 9.7% 8.5% Gostivar 6.7% 18.1% 16.8% 15.1% 13.2% 11.6% 8.8% Debar 9.0% 17.7% 16.9% 15.3% 13.5% 10.4% 8.4% Ohrid 6.7% 18.5% 18.2% 13.6% 11.4% 10.6% 8.8% Bitola 5.8% 17.5% 17.6% 13.6% 11.6% 10.6% 10.8% Veles 7.2% 20.3% 18.7% 14.8% 12.3% 10.1% 8.1% Gevgelija 8.9% 22.6% 18.5% 13.4% 9.3% 9.5% 7.3% Stip 7.9% 16.2% 15.0% 12.0% 12.9% 12.5% 10.8% Probistip 7.1% 17.2% 15.4% 13.9% 13.1% 14.5% 10.7% Rural Rostusa 12.0% 19.4% 14.3% 11.6% 12.4% 11.6% 9.7% Tearce 6.9% 17.7% 16.1% 16.7% 16.5% 10.5% 7.5% Cucer-Sandevo 9.5% 21.2% 17.8% 13.5% 11.3% 10.0% 7.1% Zajas 8.0% 18.9% 21.2% 16.6% 14.4% 8.4% 5.0% Dolneni 8.4% 17.6% 17.4% 16.8% 13.2% 10.4% 7.3% Bogdanci 11.3% 24.7% 19.5% 11.8% 9.7% 9.6% 5.4% Rosoman 7.6% 24.1% 19.2% 14.6% 10.5% 9.8% 5.9% Makedonska Kamenica 10.8% 26.8% 22.7% 15.0% 9.1% 6.4% 4.2% Novo Selo 10.8% 18.9% 20.2% 17.1% 13.0% 9.1% 6.3% min 5.0% 16.0% 14.3% 11.6% 9.1% 6.4% 4.2% max 12.0% 26.8% 22.7% 17.1% 16.5% 14.5% 10.8% Macedonia average 7.4% 18.7% 17.7% 14.3% 12.5% 10.6% 8.7% Table 3.7: Unemployment levels in selected municipalities by age groups (2002 census) Sources: State Statistical Office.",
+        "On the other hand, in rural areas the number of employed may be smaller due to the high percentage of subsistence agriculture and/or cattle-breeding activities in the economic structure of these regions.",
+        "People engaged in these activities, particularly in subsistence agriculture, often do not consider their efforts as employment and tend to perceive and report themselves as unemployed."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 3 Total Macedonians Albanians Turks Romas Vlachs Serbs Bosniaks Other Specific employment rates 61.9 68.0 38.8 41.8 21.5 74.7 69.1 39.7 59.2 Specific un",
+      "summary_under_100_words": "Chapter 3 Total Macedonians Albanians Turks Romas Vlachs Serbs Bosniaks Other Specific employment rates 61.9 68.0 38.8 41.8 21.5 74.7 69.1 39.7 59.2 Specific unemployment rates 38.1 32.0 61.2 58.2 78.5 25.3 30.9 60.3 40.8 Non-Activity rate 52.8 46.5 70.7 61.9 52.4 51.7 52.7 56.6 56.6 Share of unemployed in working age population 18.0 17.1 17.9 22.2 37.3 12.2 14.6 26.2 18.0 Table 3.8: Labour market indicators by ethnic affiliation (2002 census) Source: State Statistical Office, Census 2002 Graph 3.7: Correlations between female workforce participation",
+      "key_points": [
+        "Chapter 3 Total Macedonians Albanians Turks Romas Vlachs Serbs Bosniaks Other Specific employment rates 61.9 68.0 38.8 41.8 21.5 74.7 69.1 39.7 59.2 Specific unemployment rates 38.1 32.0 61.2 58.2 78.5 25.3 30.9 60.3 40.8 Non-Activity rate 52.8 46.5 70.7 61.9 52.4 51.7 52.7 56.6 56.6 Share of unemployed in working age population 18.0 17.1 17.9 22.2 37.3 12.2 14.6 26.2 18.0 Table 3.8: Labour market indicators by ethnic affiliation (2002 census) Source: State Statistical Office, Census 2002 Graph 3.7: Correlations between female workforce participation and share of ethnic Albanian population\n\n[Page 51]\nMacedonians (32 percent), which is slightly below the national average (38.1 percent).",
+        "The really amazing aspect though is related to the non-active population \u2013 those who are of a working age and not employed but are not seeking employment and thus are not considered as \u2018unemployed\u2019 \u2013 i.e.",
+        "people in education, pensioners, women on maternity leave, discouraged workers."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 3",
+      "summary_under_100_words": "Chapter 3 [Page 52] sional nature of the challenges, a suitable approach should be pursued, including social assistance and active labour market policies; a delicate balance is necessary between the two. On the one hand, social assistance should be provided to people without employment opportunities in order to survive and meet the basic needs of their families avoiding marginalization. On the other, the provision of social welfare and social assistance should not encourage dependency and should not turn into an obstacle to seeking employment. It",
+      "key_points": [
+        "Chapter 3\n\n[Page 52]\nsional nature of the challenges, a suitable approach should be pursued, including social assistance and active labour market policies; a delicate balance is necessary between the two.",
+        "On the one hand, social assistance should be provided to people without employment opportunities in order to survive and meet the basic needs of their families avoiding marginalization.",
+        "On the other, the provision of social welfare and social assistance should not encourage dependency and should not turn into an obstacle to seeking employment."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 3 Table 3.9: Welfare beneficiaries by municipalities (households) Source: Ministry of Labour and Social Policy, Social cash beneficiaries (situation Jun",
+      "summary_under_100_words": "Chapter 3 Table 3.9: Welfare beneficiaries by municipalities (households) Source: Ministry of Labour and Social Policy, Social cash beneficiaries (situation June 2003) and own estimates. Municipality Number of households Percentage of the total number of households in the municipality Gostivar 1 604 14.02 Tetovo 1 644 9.38 Kumanovo 4 298 17.11 Prilep 3 633 18.91 Kavadarci 1 003 11.08 Strumica 1 570 13.75 Kocani 1 469 17.65 Debar 867 19.71 Ohrid 1 193 9.04 Bitola 2 571 11.93 Veles 2 117 14.92 Gevgelija 219 4.49",
+      "key_points": [
+        "Chapter 3 Table 3.9: Welfare beneficiaries by municipalities (households) Source: Ministry of Labour and Social Policy, Social cash beneficiaries (situation June 2003) and own estimates.",
+        "Municipality Number of households Percentage of the total number of households in the municipality Gostivar 1 604 14.02 Tetovo 1 644 9.38 Kumanovo 4 298 17.11 Prilep 3 633 18.91 Kavadarci 1 003 11.08 Strumica 1 570 13.75 Kocani 1 469 17.65 Debar 867 19.71 Ohrid 1 193 9.04 Bitola 2 571 11.93 Veles 2 117 14.92 Gevgelija 219 4.49 Probistip 346 10.67 Skopje 13 496 13.27 Rostusa 427 16.47 Tearce 645 12.40 Cucer Sandevo 167 8.28 Zajas 353 14.04 Dolneni 921 31.47 Bogdanci 105 4.71 Rosoman 117 11.04 Makedonska Kamenica 156 7.71 Novo Selo 158 5.10 Macedonia (2003) 62 739 11.11 hand, and the proportion of ethnic Macedonians on the other is medium (\u20130.374); the correlation coefficient with the proportion of the ethnic Albanian population is statistically insignificant (+0.233), which suggests that the ethnic Albanian population tends to be more dependent on welfare.",
+        "The social work centres are present in all urban areas and are responsible for the exercise of rights of citizens living in rural areas."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 3 Municipality Social work centres (2002) Number of municipalities covered by a centre(2002) Working organizations for pre\u2013school children (2002) Pupils",
+      "summary_under_100_words": "Chapter 3 Municipality Social work centres (2002) Number of municipalities covered by a centre(2002) Working organizations for pre\u2013school children (2002) Pupils and student dormitories(2002) Shelters for accommodation of adults (2002) Urban Tetovo 1 10 10 1 \u2013 Kumanovo 1 5 22 1 1 Prilep 1 5 11 1 1 Kocani 1 5 6 \u2013 \u2013 Kavadarci 1 3 13 1 \u2013 Strumica 1 6 5 1 \u2013 Skopje 1 16 76 8 1 Gostivar 1 9 7 1 \u2013 Debar 1 2 4 1 \u2013",
+      "key_points": [
+        "Chapter 3 Municipality Social work centres (2002) Number of municipalities covered by a centre(2002) Working organizations for pre\u2013school children (2002) Pupils and student dormitories(2002) Shelters for accommodation of adults (2002) Urban Tetovo 1 10 10 1 \u2013 Kumanovo 1 5 22 1 1 Prilep 1 5 11 1 1 Kocani 1 5 6 \u2013 \u2013 Kavadarci 1 3 13 1 \u2013 Strumica 1 6 5 1 \u2013 Skopje 1 16 76 8 1 Gostivar 1 9 7 1 \u2013 Debar 1 2 4 1 \u2013 Ohrid 1 4 10 2 \u2013 Bitola 1 9 15 2 1 Veles 1 5 11 1 \u2013 Gevgelija 1 4 3 - \u2013 Stip 1 2 7 2 \u2013 Probistip 1 2 3 1 \u2013 Rural Rostusa \u2013 \u2013 3 \u2013 \u2013 Tearce \u2013 \u2013 7 \u2013 \u2013 Cucer-Sandevo \u2013 \u2013 3 \u2013 \u2013 Zajas \u2013 \u2013 10 \u2013 \u2013 Dolneni \u2013 \u2013 3 \u2013 \u2013 Bogdanci \u2013 \u2013 1 \u2013 \u2013 Rosoman \u2013 \u2013 3 \u2013 \u2013 Maked.",
+        "Kamenica \u2013 \u2013 3 \u2013 \u2013 Novo Selo \u2013 \u2013 10 \u2013 \u2013 Table 3.10: Basic Indicators in the Social Aid and Protection Sector Source: Employment Bureau.",
+        "At the same time, even within the urban municipalities, there are drastic differences in terms of the number of people covered by a social work centre."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 3 Municipality No. of approved credits Amount in Euros No. of new employment Average cost per employee in Euros Urban Tetovo 7 147,540 17 8,679 Kumanovo",
+      "summary_under_100_words": "Chapter 3 Municipality No. of approved credits Amount in Euros No. of new employment Average cost per employee in Euros Urban Tetovo 7 147,540 17 8,679 Kumanovo 110 2,229,680 418 5,334 Prilep 9 185,975 44 4,227 Kavadarci 17 366,393 36 10,178 Kocani 18 345,082 41 8,417 Strumica 22 460,443 151 3,049 Skopje 193 4,080,000 641 6,365 Gostivar 8 160,000 22 7,273 Debar 3 68,800 4 17,200 Ohrid 52 963,500 137 7,033 Bitola 26 484,000 161 3,006 Veles 12 248,000 82 3,024 Gevgelija 13 306,000 44",
+      "key_points": [
+        "of new employment Average cost per employee in Euros Urban Tetovo 7 147,540 17 8,679 Kumanovo 110 2,229,680 418 5,334 Prilep 9 185,975 44 4,227 Kavadarci 17 366,393 36 10,178 Kocani 18 345,082 41 8,417 Strumica 22 460,443 151 3,049 Skopje 193 4,080,000 641 6,365 Gostivar 8 160,000 22 7,273 Debar 3 68,800 4 17,200 Ohrid 52 963,500 137 7,033 Bitola 26 484,000 161 3,006 Veles 12 248,000 82 3,024 Gevgelija 13 306,000 44 6,955 Stip 30 604,000 221 2,733 Probistip 5 83,600 14 5,971 Total urban* 525 10,733,013 2,033 5,279 Rural Rostusa 0 0 0 0 Tearce 0 0 0 0 Cucer\u2013Sandevo 0 0 0 0 Zajas 1 19,500 1 19,500 Dolneni 0 0 0 0 Bogdanci 2 49,000 6 8,167 Rosoman 0 0 0 0 Maked.",
+        "Kamenica 3 73,700 35 2,106 Novo Selo 1 29,500 15 1,967 Total rural* 7 171,700 57 3,012 Total* 532 10,904,713 2,090 5,218 Table 3.12: Approved credits and new employments through NEPA \u2013 by selected municipalities * The totals are refering to the municipality sample only Source: NEPA\n\n[Page 57]\nIncome, Employment and Local Economic Development 57"
+      ]
+    },
+    {
+      "chapter_title": "Chapter 3 Approved credits Credits value Ethnic composition of the municipality Unemployment rate Municipality Number Share of all In Euros Share of total Maced",
+      "summary_under_100_words": "Chapter 3 Approved credits Credits value Ethnic composition of the municipality Unemployment rate Municipality Number Share of all In Euros Share of total Macedonians Albanians Total Macedonian Albanian Urban Tetovo 7 1.3% 147,540 1.4% 28.2% 64.0% 17.1% 16.7% 16.7% Kumanovo 110 20.7% 2,229,680 20.8% 59.6% 26.4% 26.2% 25.4% 27.6% Prilep 9 1.7% 185,975 1.7% 93.2% 0.0% 32.8% 31.1% 28.6% Kavadarci 17 3.2% 366,393 3.4% 92.2% 0.0% 24.9% 23.0% n/a Kocani 18 3.4% 345,082 3.2% 96.8% 0.0% 31.1% 31.1% 72.8% Strumica 22 4.1% 460,443 4.3% 92.8%",
+      "key_points": [
+        "Chapter 3 Approved credits Credits value Ethnic composition of the municipality Unemployment rate Municipality Number Share of all In Euros Share of total Macedonians Albanians Total Macedonian Albanian Urban Tetovo 7 1.3% 147,540 1.4% 28.2% 64.0% 17.1% 16.7% 16.7% Kumanovo 110 20.7% 2,229,680 20.8% 59.6% 26.4% 26.2% 25.4% 27.6% Prilep 9 1.7% 185,975 1.7% 93.2% 0.0% 32.8% 31.1% 28.6% Kavadarci 17 3.2% 366,393 3.4% 92.2% 0.0% 24.9% 23.0% n/a Kocani 18 3.4% 345,082 3.2% 96.8% 0.0% 31.1% 31.1% 72.8% Strumica 22 4.1% 460,443 4.3% 92.8% 0.0% 26.5% 25.8% n/a Skopje 193 36.3% 4,080,000 38.0% 71.2% 15.3% 16.3% 14.6% 19.9% Gostivar 8 1.5% 160,000 1.5% 26.5% 59.0% 19.3% 27.0% 14.8% Debar 3 0.6% 68,800 0.6% 13.9% 63.3% 29.3% 12.4% 32.4% Ohrid 52 9.8% 963,500 9.0% 84.6% 5.4% 22.4% 21.6% 20.8% Bitola 26 4.9% 484,000 4.5% 89.7% 2.9% 22.9% 21.7% 37.8% Veles 12 2.3% 248,000 2.3% 81.3% 8.2% 25.0% 23.6% 18.0% Gevgelija 13 2.4% 306,000 2.9% 96.5% 0.0% 16.2% 16.0% 35.8% Stip 30 5.6% 604,000 5.6% 87.2% 0.0% 19.3% 17.6% 24.0% Probistip 5 0.9% 83,600 0.8% 98.4% 0.0% 18.5% 18.5% n/a Total for urban 525 98.7% 10,733,013 100.0% Rural Rostusa 0 0.0% 0 0.0% 55.1% 11.7% 16.2% 18.7% 7.9% Tearce 0 0.0% 0 0.0% 12.2% 84.4% 20.7% 25.4% 20.3% Cucer-Sandevo 0 0.0% 0 0.0% 47.3% 22.9% 25.2% 24.1% 32.1% Zajas 1 14.3% 19,500 11.4% 1.8% 97.4% 15.3% 16.1% 15.3% Dolneni 0 0.0% 0 0.0% 41.8% 21.2% 39.0% 32.8% 41.1% Bogdanci 2 28.6% 49,000 28.5% 92.9% 0.0% 17.2% 16.8% 74.0% Rosoman 0 0.0% 0 0.0% 89.2% 0.0% 29.6% 30.6% n/a Mak.",
+        "Kamenica 3 42.9% 73,700 42.9% 99.3% 0.0% 15.8% 15.9% n/a Novo Selo 1 14.3% 29,500 17.2% 99.5% 0.0% 27.2% 27.3% n/a Total for rural 7 100.0% 171,700 100.0% Total 532 100% 10,904,713 100.0% Table 3.13: NEPA crediting - adequately targeting the problems?",
+        "Source: NEPA, State Statistical Office, own calculations\n\n[Page 58]\nthrough levels of unemployment (registered unemployment rates) and the ethnic composition of the municipalities."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 3 Box 3.1: Employment Incentive Act The Government passed a Law on Employment Incentive, according to which the employer, who employs an unemployed citi",
+      "summary_under_100_words": "Chapter 3 Box 3.1: Employment Incentive Act The Government passed a Law on Employment Incentive, according to which the employer, who employs an unemployed citizen on a permanent and full time basis, enjoys certain relief in respect to pension and disability insurance contribution payments, health insurance contribution, and the employment contribution payments for a period of 24 months from the employment date. The law was passed in April 2003. In the period between 16 April 2003 \u2013 31 December 2003 the number of people employed",
+      "key_points": [
+        "Chapter 3 Box 3.1: Employment Incentive Act The Government passed a Law on Employment Incentive, according to which the employer, who employs an unemployed citizen on a permanent and full time basis, enjoys certain relief in respect to pension and disability insurance contribution payments, health insurance contribution, and the employment contribution payments for a period of 24 months from the employment date.",
+        "In the period between 16 April 2003 \u2013 31 December 2003 the number of people employed under this law was 14,840, which is still below the expected number of 20,000 people.",
+        "Programs Number of projects Amount of the contract (US$) Project participants Newly employed participants Work counseling 22 242,079 28,415 4,173 Training 668 5,670,630 20,130 16,572 Public affairs 73 2,032,375 2,682 250 Of MSP 28 98,120 1,519 211 MSP incubators 8 1,500,795 558 558 Development studies 14 497,081 \u2013 \u2013 Guarantee Fund 0 0 \u2013 \u2013 Total 813 10,041,080 53,304 21,764 Table 3.14: Results from the activity measures in the labour market in the \u2019Social Help Project\u2018 (1996-2002) Source: Project Implementation Unit, Privatization Agency of Macedonia\n\n[Page 59]\nIncome, Employment and Local Economic Development 59"
+      ]
+    },
+    {
+      "chapter_title": "Chapter 3 bators for small businesses, studies on local economic development and a fund for micro-credit guarantee. The results of this project are presented in",
+      "summary_under_100_words": "Chapter 3 bators for small businesses, studies on local economic development and a fund for micro-credit guarantee. The results of this project are presented in Table 3.14. Employment generation programmes, such as the Youth Employment Support Programme and Clean & Green Macedonia, supported by the United Nations Development Programme (UNDP) provided employment opportunities for the most vulnerable part of the population. Unskilled workers were recruited to work in environmental and infrastructure related small scale projects in different municipalities all over the country. Between 1999 and",
+      "key_points": [
+        "Chapter 3 bators for small businesses, studies on local economic development and a fund for micro-credit guarantee.",
+        "The results of this project are presented in Table 3.14.",
+        "Employment generation programmes, such as the Youth Employment Support Programme and Clean & Green Macedonia, supported by the United Nations Development Programme (UNDP) provided employment opportunities for the most vulnerable part of the population."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 3 Amounts Number of pensioners Proportion of total Up to MKD 3,755 20,611 8.2 3,755 \u2013 6,000 110,369 43.9 6,000 \u2013 9,000 66,655 26.5 9,000 \u2013 12,000 30,234",
+      "summary_under_100_words": "Chapter 3 Amounts Number of pensioners Proportion of total Up to MKD 3,755 20,611 8.2 3,755 \u2013 6,000 110,369 43.9 6,000 \u2013 9,000 66,655 26.5 9,000 \u2013 12,000 30,234 12.0 12,000 \u2013 15,000 13,737 5.5 15,000 \u2013 18,000 4,670 1.9 18,000 \u2013 25,769 5,008 2.0 Total 251,284 100.0 Table 3.16: Pension beneficiaries by pension volume Source: Pension and Disability Insurance Fund 2003 pensions impose the need for a reform of the pension system, which is already under way. The new pension system will be a",
+      "key_points": [
+        "Chapter 3 Amounts Number of pensioners Proportion of total Up to MKD 3,755 20,611 8.2 3,755 \u2013 6,000 110,369 43.9 6,000 \u2013 9,000 66,655 26.5 9,000 \u2013 12,000 30,234 12.0 12,000 \u2013 15,000 13,737 5.5 15,000 \u2013 18,000 4,670 1.9 18,000 \u2013 25,769 5,008 2.0 Total 251,284 100.0 Table 3.16: Pension beneficiaries by pension volume Source: Pension and Disability Insurance Fund 2003 pensions impose the need for a reform of the pension system, which is already under way.",
+        "The new pension system will be a multi-level pension system comprising three pillars: 1.",
+        "compulsory pension and disability insurance based on solidarity between generations (first pillar); 2."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 3 Municipality Pensions Pensioners in the total population (%)old age disability family total Berovo 1,608 695 915 3,218 22.69 Bitola 10,501 2428 5,117 ",
+      "summary_under_100_words": "Chapter 3 Municipality Pensions Pensioners in the total population (%)old age disability family total Berovo 1,608 695 915 3,218 22.69 Bitola 10,501 2428 5,117 18,046 20.94 Bogdanci 759 169 396 1,324 14.88 Makedonski Brod 486 334 429 1,249 22.64 Valandovo 768 229 449 1,446 11.95 Vinica 821 463 625 1,909 11.19 Gevgelija 2,967 730 1,448 5,145 26.40 Gostivar 2,650 1,832 2,548 7,030 15.37 Debar 924 354 783 2,061 11.72 Delcevo 1,397 1,245 866 3,508 19.79 Demir Hisar 889 199 588 1,676 22.00 Dolneni 215 35",
+      "key_points": [
+        "Chapter 3 Municipality Pensions Pensioners in the total population (%)old age disability family total Berovo 1,608 695 915 3,218 22.69 Bitola 10,501 2428 5,117 18,046 20.94 Bogdanci 759 169 396 1,324 14.88 Makedonski Brod 486 334 429 1,249 22.64 Valandovo 768 229 449 1,446 11.95 Vinica 821 463 625 1,909 11.19 Gevgelija 2,967 730 1,448 5,145 26.40 Gostivar 2,650 1,832 2,548 7,030 15.37 Debar 924 354 783 2,061 11.72 Delcevo 1,397 1,245 866 3,508 19.79 Demir Hisar 889 199 588 1,676 22.00 Dolneni 215 35 111 361 3.10 Kavadarci 2,622 1,462 1,643 5,727 15.40 Kicevo 2,077 902 1,537 4,516 16.39 Kocani 2,769 1,416 1,834 6,019 18.78 Kratovo 589 499 521 1,609 14.76 Kriva Palanka 1,033 1,281 1,129 3,443 16.56 Krusevo 893 215 403 1,511 15.38 Kumanovo 6,617 2,978 3,893 13,488 14.26 Makedonska Kamenica 452 293 270 1,015 12.57 Negotino 1,637 465 802 2,904 15.83 Novo Selo 379 70 244 693 5.77 Ohrid 4,900 1,808 2,635 9,343 17.72 Prilep 7,258 2,123 3,823 13,204 18.36 Probistip 1,169 603 785 2,557 19.72 Radovis 1,669 669 911 3,249 14.04 Resen 1,591 394 880 2,865 16.20 Rosoman 181 122 158 461 10.90 Rostusa 66 97 164 327 3.22 Sveti Nikole 1,618 734 794 3,146 16.98 Skopje 45,289 15,236 19,141 79,566 17.93 Struga 2,291 1,742 1,863 5,896 16.60 Strumica 5,785 1,285 3,118 10,188 23.22 Tearce 616 338 412 1,366 6.66 Tetovo 6,591 3,948 3,823 14,362 21.99 Veles 4,806 3,036 2,342 10,184 17.94 Zajs 92 52 113 257 2.72 Stip 5,119 1,882 1,561 8,562 18.46 Table 3.17: Number of pension users in the different municipalities Source: Pension and Disability Insurance Fund, 2003\n\n[Page 63]\nIt is expected that these reforms will produce a risk diversification of the pension system, both in terms of demographic pressure and in terms of economic security of the pension system, as well as to provide a reduction in budget expenditure, necessary for covering the pension fund deficits.",
+        "The general view is that this will generate a considerable quantity of funds for capital investments, which in the end will be directly reflected in the quality of life of the individuals that have completed their years of service."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 3 1. Ravallion, 2001. 2. National Human Development Report (1998), Ministry of Development and UNDP, p 58. 3. see Jovanovic and Milanovic, 1999. 4. The ",
+      "summary_under_100_words": "Chapter 3 1. Ravallion, 2001. 2. National Human Development Report (1998), Ministry of Development and UNDP, p 58. 3. see Jovanovic and Milanovic, 1999. 4. The activity and employment statistics in Macedonia are based on ILO (International Labour Office) methodology. The same appl ies for 2002 census as well. \u2018Economically active population\u2019 (or \u2018Labour force\u2019) is defined as a population of 15+ (the maximum age is not specified) who are performing an occupation (employed) plus those in the same age range who are not (unemployed).",
+      "key_points": [
+        "National Human Development Report (1998), Ministry of Development and UNDP, p 58.",
+        "The activity and employment statistics in Macedonia are based on ILO (International Labour Office) methodology.",
+        "The same appl ies for 2002 census as well."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 4 The social sector and the challenges of decentralization CHAPTER 4 Groups* of children in pre-school education (6 month \u2013 6 years) Total 1,981 100% Ma",
+      "summary_under_100_words": "Chapter 4 The social sector and the challenges of decentralization CHAPTER 4 Groups* of children in pre-school education (6 month \u2013 6 years) Total 1,981 100% Macedonian language 1,689 85.3% Albanian language 266 13.4% Turkish language 18 0.9% Others 8 0.4% Table 4.1: Pre-school education by language (2002) * The average number of children per group is 18. Source: State Statistical Office. [Page 66] dren included in pre-school education has decreased over the last few years. This is due to the lower birth rate of",
+      "key_points": [
+        "Chapter 4 The social sector and the challenges of decentralization CHAPTER 4 Groups* of children in pre-school education (6 month \u2013 6 years) Total 1,981 100% Macedonian language 1,689 85.3% Albanian language 266 13.4% Turkish language 18 0.9% Others 8 0.4% Table 4.1: Pre-school education by language (2002) * The average number of children per group is 18.",
+        "[Page 66]\ndren included in pre-school education has decreased over the last few years.",
+        "This is due to the lower birth rate of the population over the past decade, as well as due to the migration of entire families, who over a period of time have been moving abroad because of the poor and unstable situation in the country."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 4 Total population Male Female Municipality Gross primary enrolment rate * Net primary enrolment rate ** Gross male primary enrolment rate Net male prim",
+      "summary_under_100_words": "Chapter 4 Total population Male Female Municipality Gross primary enrolment rate * Net primary enrolment rate ** Gross male primary enrolment rate Net male primary enrolment rate Gross female primary enrolment rate Net female primary enrolment rate Macedonia 95.3 92.5 95.6 92.7 95.1 92.4 Tetovo 99.0 97.0 98.9 96.8 99.1 97.2 Kumanovo 96.0 95.6 96.6 96.3 95.3 94.9 Prilep 96.7 94.2 96.7 94.3 96.6 94.1 Kocani 93.5 92.0 94.7 93.1 92.2 90.9 Kavadarci 98.7 96.0 97.9 95.4 99.6 96.6 Strumica 99.9 93.5 99.7 93.3 100.2",
+      "key_points": [
+        "Chapter 4 Total population Male Female Municipality Gross primary enrolment rate * Net primary enrolment rate ** Gross male primary enrolment rate Net male primary enrolment rate Gross female primary enrolment rate Net female primary enrolment rate Macedonia 95.3 92.5 95.6 92.7 95.1 92.4 Tetovo 99.0 97.0 98.9 96.8 99.1 97.2 Kumanovo 96.0 95.6 96.6 96.3 95.3 94.9 Prilep 96.7 94.2 96.7 94.3 96.6 94.1 Kocani 93.5 92.0 94.7 93.1 92.2 90.9 Kavadarci 98.7 96.0 97.9 95.4 99.6 96.6 Strumica 99.9 93.5 99.7 93.3 100.2 93.7 Skopje 101.9 97.7 102.5 98.3 101.3 97.1 Gostivar 104.2 99.7 104.3 98.0 104.0 101.5 Debar 96.8 93.9 94.4 91.8 99.3 96.2 Ohrid 99.5 96.6 98.6 96.2 100.4 97.0 Bitola 97.3 94.3 98.4 95.0 96.2 93.7 Veles 97.0 93.5 98.9 95.1 94.9 91.8 Gevgelija 96.0 92.4 95.5 92.2 96.5 92.7 Stip 93.7 90.2 94.6 90.8 92.7 89.6 Probistip 100.0 98.6 98.7 97.0 101.3 100.1 Rostusa 98.3 98.3 99.9 99.9 96.5 96.5 Tearce 86.6 84.8 85.4 83.8 87.9 85.9 CucerSandevo 91.6 89.9 95.2 93.6 87.9 86.1 Zajas 76.2 75.5 75.6 75.0 76.8 76.1 Dolneni 105.2 101.2 107.4 103.8 102.5 98.1 Bogdanci 102.8 98.3 102.6 98.0 102.9 98.7 Rosoman 98.1 96.7 100.0 97.6 96.2 95.8 Makedonska Kamenica 101.6 100.2 99.4 98.2 103.9 102.3 Novo Selo 90.3 84.9 89.6 84.6 91.1 85.3 Table 4.2: Gross and net primary enrolment rate 2002 Source: State Statistical Office, calculations based on Census 2002 data and Education Statistics Note: *Number of pupils enroled in the given level of education, regardless of age, expressed as a percentage of the population in the relevant official agegroup.",
+        "The ratio may exceed 100 if the actual age distribution of pupils extends beyond the official school ages or if children from one municipality are enroled in schools located in another municipality.",
+        "**Number of pupils in the official age-group for a given level of education enroled in that level expressed as a percentage of the total population in that age-group."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 4 Year of study Total Female Share of female Total 95,352 45,823 48.1% First 27,012 12,288 45.5% Second 24,535 11,719 47.8% Third 23,856 11,396 47.8% Fo",
+      "summary_under_100_words": "Chapter 4 Year of study Total Female Share of female Total 95,352 45,823 48.1% First 27,012 12,288 45.5% Second 24,535 11,719 47.8% Third 23,856 11,396 47.8% Fourth 19,949 10,420 52.2% Table 4.3: Students in regular upper secondary education by year of study and sex (school year 2002/03) Source: State Statistical Office, Education Statistics School year Macedonians Albanians Turks Roma Regular primary and lower secondary schools 1999/2000 58.0% 30.7% 4.3% 3.1% 2000/2001 57.6% 30.9% 4.2% 3.2% 2001/2002 57.4% 31.7% 4.2% 3.2% Regular upper secondary schools 1999/2000",
+      "key_points": [
+        "Chapter 4 Year of study Total Female Share of female Total 95,352 45,823 48.1% First 27,012 12,288 45.5% Second 24,535 11,719 47.8% Third 23,856 11,396 47.8% Fourth 19,949 10,420 52.2% Table 4.3: Students in regular upper secondary education by year of study and sex (school year 2002/03) Source: State Statistical Office, Education Statistics School year Macedonians Albanians Turks Roma Regular primary and lower secondary schools 1999/2000 58.0% 30.7% 4.3% 3.1% 2000/2001 57.6% 30.9% 4.2% 3.2% 2001/2002 57.4% 31.7% 4.2% 3.2% Regular upper secondary schools 1999/2000 77.8% 16.5% 1.7% 0.5% 2000/2001 76.9% 17.3% 1.8% 0.5% 2001/2002 75.8% 18.1% 1.9% 0.6% Table 4.4: Proportion of ethnic groups of students at different educational levels Source: State Statistical Office.",
+        "[Page 68]\nOver 55 percent of youngsters who have turned 18 are out of the formal education system of Macedonia (25 percent in EU average, 5 percent in Sweden, 11 percent in Finland.).",
+        "The drop-out rates are comparable though to neighbouring countries: in Bulgaria, this percentage moves around 50 percent; in Albania it is 76 percent; while it is highest in Turkey, where it amounts to approximately 84 percent."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 4 Box 4.1: Primary education \u2013 basic statistics Primary education is organized in 1,015 elementary schools. The total number of students in primary educ",
+      "summary_under_100_words": "Chapter 4 Box 4.1: Primary education \u2013 basic statistics Primary education is organized in 1,015 elementary schools. The total number of students in primary education is 237,581 whereas the total number of teachers is 13,590. The secondary education is organized in 95 secondary schools, four of which are private. There are 22 secondary schools providing general education, 46 vocational schools (including schools of music, an art school and a school for physical education), 23 schools which offer both general and vocational education and four schools",
+      "key_points": [
+        "Chapter 4 Box 4.1: Primary education \u2013 basic statistics Primary education is organized in 1,015 elementary schools.",
+        "The total number of students in primary education is 237,581 whereas the total number of teachers is 13,590.",
+        "The secondary education is organized in 95 secondary schools, four of which are private."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 4 Primary education Secondary education Municipality School-age population No. of students No. of teachers Teacher to students ratio School-age populati",
+      "summary_under_100_words": "Chapter 4 Primary education Secondary education Municipality School-age population No. of students No. of teachers Teacher to students ratio School-age population No. of students No. of teachers Teacher to students ratio Skopje 55,457 51,709 2,596 19.92 27,432 2,7871 1,705 16.34 Tetovo 11,325 10,126 453 22.35 5,096 9,137 552 16.55 Kumanovo 14,661 12,758 641 19.90 6,814 5,105 265 19.26 Prilep 8,816 7,896 354 22.31 4,361 4,255 251 16.95 Kavadarci 4,550 4,083 224 18.23 2,458 2,201 124 17.75 Strumica 5,675 5,286 282 18.74 2,971 3,542 181 19.57",
+      "key_points": [
+        "Chapter 4 Primary education Secondary education Municipality School-age population No.",
+        "of teachers Teacher to students ratio School-age population No.",
+        "of teachers Teacher to students ratio Skopje 55,457 51,709 2,596 19.92 27,432 2,7871 1,705 16.34 Tetovo 11,325 10,126 453 22.35 5,096 9,137 552 16.55 Kumanovo 14,661 12,758 641 19.90 6,814 5,105 265 19.26 Prilep 8,816 7,896 354 22.31 4,361 4,255 251 16.95 Kavadarci 4,550 4,083 224 18.23 2,458 2,201 124 17.75 Strumica 5,675 5,286 282 18.74 2,971 3,542 181 19.57 Kocani 4,086 4,296 212 20.26 2,064 2,220 118 18.81 Gostivar 8,212 7,675 369 20.8 3,670 3,625 292 12.41 Debar 3,162 3,056 163 18.75 1,406 716 42 17.05 Ohrid 6,636 6,080 318 19.12 3,396 3,276 173 18.94 Bitola 9,713 8,884 465 19.11 5,356 6,182 382 16.18 Veles 7,244 6,680 340 19.65 3,742 3,122 176 17.74 Gevgelija 2,211 1,958 93 21.05 1,269 1,288 89 14.47 Stip 5,698 4,981 249 20 3,114 3,692 276 13.38 Probistip 1,487 1,430 80 17.88 878 859 57 15.07 Rostusa 1,793 1,704 108 15.78 798 116 19 6.11 Tearce 3,825 3,072 185 16.61 1,798 0 0 \u2013 Cucer Sandevo 1,198 750 56 13.39 565 0 0 \u2013 Zajas 2,228 1,398 112 12.48 881 0 0 \u2013 Dolneni 1,582 1,333 113 11.8 696 0 0 \u2013 Bogdanci 1,002 2,352 125 18.82 580 300 28 10.71 Rosoman 481 419 30 13.97 215 0 0 \u2013 Makedonska Kamenica 1,092 1,040 61 17.05 539 306 26 11.77 Novo Selo 1,464 1,253 89 14.08 654 0 0 \u2013 Source: State Statistical Office."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 4 Number Proportion Total Men Women Men Women Students attending 2001/02 44,553 19,941 24,612 44.8% 55.2% Students attending 2002/03 45,468 19,918 25,55",
+      "summary_under_100_words": "Chapter 4 Number Proportion Total Men Women Men Women Students attending 2001/02 44,553 19,941 24,612 44.8% 55.2% Students attending 2002/03 45,468 19,918 25,550 43.8% 56.2% Students graduated in 2002 3,601 1,374 2,227 38.2% 61.8% Table 4.7: Tertiary level attendance and graduates Source: State Statistical Office, Education Statistics. School year Total Macedonians Albanians Turks Roma Total Proportion of girls Total Proportion of girls Total Proportion of girls Total Proportion of girls Total Proportion of girls Regular primary and lower secondary schools 1999/2000 252,212 48.3% 146,558 48.6%",
+      "key_points": [
+        "Chapter 4 Number Proportion Total Men Women Men Women Students attending 2001/02 44,553 19,941 24,612 44.8% 55.2% Students attending 2002/03 45,468 19,918 25,550 43.8% 56.2% Students graduated in 2002 3,601 1,374 2,227 38.2% 61.8% Table 4.7: Tertiary level attendance and graduates Source: State Statistical Office, Education Statistics.",
+        "School year Total Macedonians Albanians Turks Roma Total Proportion of girls Total Proportion of girls Total Proportion of girls Total Proportion of girls Total Proportion of girls Regular primary and lower secondary schools 1999/2000 252,212 48.3% 146,558 48.6% 77,442 48.1% 10,760 47.5% 7,757 46.3% 2000/2001 246,490 48.4% 142,116 48.6% 76,225 48.3% 10,453 47.1% 7,970 48.1% 2001/2002 242,707 48.5% 139,267 48.7% 76,891 48.7% 10,220 47.1% 7,868 47.5% Regular upper secondary schools 1999/2000 89,775 48.6% 69,844 51.0% 14,823 41.1% 1,545 36.8% 447 39.8% 2000/2001 90,990 48.7% 69,991 50.8% 15,718 42.1% 1,665 38.0% 499 43.3% 2001/2002 92,068 48.9% 69,783 50.7% 16,691 43.8% 1,785 42.3% 569 37.4% Table 4.8: Students at different educational levels by ethnic affiliation and gender Source: State Statistical Office.",
+        "[Page 72]\nsubjects or languages of instruction in rural municipalities it inevitably has an adverse impact on human capital improvements as well as on the economic potentials of these municipalities."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 4 Box 4.2: Bilingual education benefiting ethnic minorities Low educational attainment continues to be a major source of exclusion for immigrants, ethni",
+      "summary_under_100_words": "Chapter 4 Box 4.2: Bilingual education benefiting ethnic minorities Low educational attainment continues to be a major source of exclusion for immigrants, ethnic groups and indigenous people. In such cases offering bilingual education not only recognizes their cultural traditions but it can also enhance learning and reduce educational disparities \u2013 widening people\u2019s choices. Children learn best when they are taught in their native language, particularly in the earliest years. Experience in many countries shows that bilingual education, which combines instruction in the native language with",
+      "key_points": [
+        "Chapter 4 Box 4.2: Bilingual education benefiting ethnic minorities Low educational attainment continues to be a major source of exclusion for immigrants, ethnic groups and indigenous people.",
+        "In such cases offering bilingual education not only recognizes their cultural traditions but it can also enhance learning and reduce educational disparities \u2013 widening people\u2019s choices.",
+        "Children learn best when they are taught in their native language, particularly in the earliest years."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 4 School year Total Macedonians Albanians Turks Roma Teachers Teacher (1) to student ratio Teachers Teacher (1) to student ratio Teachers Teacher (1) to",
+      "summary_under_100_words": "Chapter 4 School year Total Macedonians Albanians Turks Roma Teachers Teacher (1) to student ratio Teachers Teacher (1) to student ratio Teachers Teacher (1) to student ratio Teachers Teacher (1) to student ratio Teachers Teacher (1) to student ratio Regular primary and lower secondary schools 1999/2000 14,430 17.5 9,842 14.9 3,879 20.0 335 32.1 17 456.3 2000/01 13,937 17.7 9,545 14.9 3,748 20.3 327 32.0 15 531.3 2001/02 14,112 17.2 9,576 14.5 3,905 19.7 343 29.8 15 524.5 Regular upper secondary schools 1999/2000 5,798 15.5",
+      "key_points": [
+        "Chapter 4 School year Total Macedonians Albanians Turks Roma Teachers Teacher (1) to student ratio Teachers Teacher (1) to student ratio Teachers Teacher (1) to student ratio Teachers Teacher (1) to student ratio Teachers Teacher (1) to student ratio Regular primary and lower secondary schools 1999/2000 14,430 17.5 9,842 14.9 3,879 20.0 335 32.1 17 456.3 2000/01 13,937 17.7 9,545 14.9 3,748 20.3 327 32.0 15 531.3 2001/02 14,112 17.2 9,576 14.5 3,905 19.7 343 29.8 15 524.5 Regular upper secondary schools 1999/2000 5,798 15.5 4,725 14.8 796 18.6 82 18.8 2 223.5 2000/01 5,685 16.0 4,619 15.2 813 19.3 90 18.5 2 249.5 2001/02 5,765 16.0 4,652 15.0 844 19.8 112 15.9 2 284.5 Table 4.9: Teacher to student ratios in different educational levels by ethnic affiliation of students and teachers Box 4.3: Vocational training \u2013 centralized or decentralized approach?",
+        "In 2000 Kocani had a total of 8,072 registered unemployed, out of which 7,751 had secondary education at the most.",
+        "62.85 percent were unqualified workers, a group that includes people with possibly elementary education, i.e."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 4 Box 4.4: Different level prerogatives Central level: \u0093 determines what level of education exist (primary, secondary, higher, then general and vocation",
+      "summary_under_100_words": "Chapter 4 Box 4.4: Different level prerogatives Central level: \u0093 determines what level of education exist (primary, secondary, higher, then general and vocational, etc.); \u0093 defines the conditions to be met for founding a school; \u0093 prescribes the level of education of teachers and other staff at schools; \u0093 makes decisions on curricula and syllabi and their core content at primary and, in certain cases, secondary schools; \u0093 defines the evaluation system; \u0093 manages and finances the higher state funded education; \u0093 inspects implementation of",
+      "key_points": [
+        "Chapter 4 Box 4.4: Different level prerogatives Central level: \u0093 determines what level of education exist (primary, secondary, higher, then general and vocational, etc.); \u0093 defines the conditions to be met for founding a school; \u0093 prescribes the level of education of teachers and other staff at schools; \u0093 makes decisions on curricula and syllabi and their core content at primary and, in certain cases, secondary schools; \u0093 defines the evaluation system; \u0093 manages and finances the higher state funded education; \u0093 inspects implementation of regulations enacted by itself, etc.",
+        "Local authorities \u0093 determine the location (spot) for a school to be constructed; \u0093appoint principals of primary or secondary schools (if the latter are not private); \u0093 fund the school operations; \u0093 control school operations, etc.",
+        "Successful decentralization of education means also improving the capacities and human resources on the central level, in the Ministry of Education and Sciences and the relevant national agencies \u2013 the Bureau for the Development of Education and the State Education Inspectorate."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 4 Box 4.5: The Macedonian health care system and its services Primary health care is provided in health care stations (6), health care centres (18), med",
+      "summary_under_100_words": "Chapter 4 Box 4.5: The Macedonian health care system and its services Primary health care is provided in health care stations (6), health care centres (18), medical centres (16) and outpatient clinics (9). It is delivered through the following health care services: general medicine (456 stations), occupational health (78 stations), health care of children at the age of 0-6 years (70 stations), health care of school children and young people (71 station), health care of women (50 stations) and dental care (328 stations). Secondary health",
+      "key_points": [
+        "Chapter 4 Box 4.5: The Macedonian health care system and its services Primary health care is provided in health care stations (6), health care centres (18), medical centres (16) and outpatient clinics (9).",
+        "It is delivered through the following health care services: general medicine (456 stations), occupational health (78 stations), health care of children at the age of 0-6 years (70 stations), health care of school children and young people (71 station), health care of women (50 stations) and dental care (328 stations).",
+        "Secondary health care comprises: specialist and consultative care, hospital care, specialized hospital care and other specialized forms of health care."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 4 Life expectancy Average age 1996/98 1997/99 1998/2000 1999/2001 1997 1998 1999 2000 2001 Total 72.49 72.49 72.68 73.05 33.5 33.8 34.0 34.3 34.63 Men 7",
+      "summary_under_100_words": "Chapter 4 Life expectancy Average age 1996/98 1997/99 1998/2000 1999/2001 1997 1998 1999 2000 2001 Total 72.49 72.49 72.68 73.05 33.5 33.8 34.0 34.3 34.63 Men 70.37 70.37 70.48 70.68 32.7 33.0 33.3 33.5 33.81 Women 74.68 74.68 74.77 76.21 34.2 34.5 34.8 35.1 36.45 Table 4.10: Average life expectancy and average age of the population Source: State Statistical Office (2002): Statistical Yearbook of the Republic of Macedonia, Skopje, p. 52. Municipality Health organizations in Primary health care (2001)* Hospitals (2001) Doctors per 1,000 inhabitants",
+      "key_points": [
+        "Chapter 4 Life expectancy Average age 1996/98 1997/99 1998/2000 1999/2001 1997 1998 1999 2000 2001 Total 72.49 72.49 72.68 73.05 33.5 33.8 34.0 34.3 34.63 Men 70.37 70.37 70.48 70.68 32.7 33.0 33.3 33.5 33.81 Women 74.68 74.68 74.77 76.21 34.2 34.5 34.8 35.1 36.45 Table 4.10: Average life expectancy and average age of the population Source: State Statistical Office (2002): Statistical Yearbook of the Republic of Macedonia, Skopje, p.",
+        "Municipality Health organizations in Primary health care (2001)* Hospitals (2001) Doctors per 1,000 inhabitants (2001) Nurses per 1,000 inhabitants (higher and high-school education, 2001) Urban Tetovo 2 2 3.05 4.77 Kumanovo 1 1 1.61 2.08 Prilep 1 1 2.62 1.99 Kocani 1 1 2.08 3.38 Kavadarci 1 1 2.06 2.42 Strumica 2 1 3.35 4.17 Skopje 7 10 4.22 4.88 Gostivar 2 1 2.89 5.19 Debar 1 1 2.34 2.90 Ohrid 1 2 4.19 7.67 Bitola 1 1 4.48 6.17 Veles 1 2 2.62 4.46 Gevgelija 1 2 4.13 6.14 Stip 1 1 2.49 4.77 Probistip 2 \u2013 1.65 1.57 Table 4.11: Basic indicators in the healthcare sector, by municipality *Health care stations, health care centres, out-of-hospital outpatients within medical centres and medical centres.",
+        "[Page 77]\nThe intention of bringing primary health care and health care services closer to the life and work of people is made possible through the wide network of health care and medical stations."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 4 Births Deaths Population Number Rate per 000 population Number Rate per 000 population Macedonia 2,020,157 27,761 13.74 17,962 8.89 Tetovo 70,362 1,21",
+      "summary_under_100_words": "Chapter 4 Births Deaths Population Number Rate per 000 population Number Rate per 000 population Macedonia 2,020,157 27,761 13.74 17,962 8.89 Tetovo 70,362 1,213 17.24 568 8.07 Kumanovo 102,233 1,577 15.43 844 8.26 Prilep 73,236 821 11.21 808 11.03 Kocani 33,537 428 12.76 271 8.08 Kavadarci 38,330 418 10.91 346 9.03 Strumica 45,005 623 13.84 384 8.53 Skopje 466,596 6,007 12.87 4,010 8.59 Gostivar 49,513 886 17.89 430 8.68 Debar 18,008 283 15.72 108 6.00 Ohrid 53,844 653 12.13 458 8.51 Bitola 85,884 801 9.33",
+      "key_points": [
+        "Chapter 4 Births Deaths Population Number Rate per 000 population Number Rate per 000 population Macedonia 2,020,157 27,761 13.74 17,962 8.89 Tetovo 70,362 1,213 17.24 568 8.07 Kumanovo 102,233 1,577 15.43 844 8.26 Prilep 73,236 821 11.21 808 11.03 Kocani 33,537 428 12.76 271 8.08 Kavadarci 38,330 418 10.91 346 9.03 Strumica 45,005 623 13.84 384 8.53 Skopje 466,596 6,007 12.87 4,010 8.59 Gostivar 49,513 886 17.89 430 8.68 Debar 18,008 283 15.72 108 6.00 Ohrid 53,844 653 12.13 458 8.51 Bitola 85,884 801 9.33 1,024 11.92 Veles 57,863 686 11.86 509 8.80 Gevgelija 20,131 192 9.54 199 9.89 Stip 47,776 543 11.37 418 8.75 Probistip 12,712 105 8.26 121 9.52 Rostusa 9,455 197 20.84 73 7.72 Tearce 22,508 323 14.35 189 8.40 Cucer-Sandevo 8,963 133 14.84 73 8.14 Zajas 11,666 162 13.89 72 6.17 Dolneni 11,444 193 16.86 150 13.11 Bogdanci 8,721 82 9.40 88 10.09 Rosoman 4,175 39 9.34 34 8.14 Mak.",
+        "Kamenica 8,149 107 13.13 64 7.85 Novo Selo 11,994 152 12.67 141 11.76 Table 4.12: Crude birth and death rates, per 000 population Source: State Statistical Office, Census 2002\n\n[Page 78]\n327 medical stations in rural areas, 209 of them with a permanent physician and 118 with a visiting physician.",
+        "The reason for these diverse pictures, deduced by the statistics and by people\u2019s opinion, is perhaps in the structure of the health care system with the retention of the momentum of the socialist era \u2013 overstaffed, with overextended hospital level at the expense of pre-hospital care."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 4 Source: Public Health Institute",
+      "summary_under_100_words": "Chapter 4 Source: Public Health Institute [Page 79] are required in order to adequately analysing the quality dimension in the health sector. CHALLENGES FACING THE PUBLIC HEALTH CARE SECTOR AND THE REFORM AGENDA After independence, the need for central resource management led to the transformation of the disjointed system of municipally-funded health services to a social insurance-funded model with central coordination and planning. The health sector transition project supported by the World Bank addressed different reforms targeting health financing and management, primary and preventive health",
+      "key_points": [
+        "Chapter 4 Source: Public Health Institute\n\n[Page 79]\nare required in order to adequately analysing the quality dimension in the health sector.",
+        "CHALLENGES FACING THE PUBLIC HEALTH CARE SECTOR AND THE REFORM AGENDA After independence, the need for central resource management led to the transformation of the disjointed system of municipally-funded health services to a social insurance-funded model with central coordination and planning.",
+        "The health sector transition project supported by the World Bank addressed different reforms targeting health financing and management, primary and preventive health care and drugs policy and procurement."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 4 Box 4.6 Health care - Municipal competencies under the new law \u0093Governance of the network of public health organizations and primary care buildings to",
+      "summary_under_100_words": "Chapter 4 Box 4.6 Health care - Municipal competencies under the new law \u0093Governance of the network of public health organizations and primary care buildings to include representation of local self-government in all the boards of all the publicly owned health care organizations; \u0093 Public health education; \u0093 Preventive activities; \u0093 Oversight over contagious diseases; \u0093 Protection of health workers and protection at work; \u0093 Health oversight over the environment; \u0093 Assistance to patients with special needs (mental health, child abuse, etc.). 1. 2002/03 data,",
+      "key_points": [
+        "Chapter 4 Box 4.6 Health care - Municipal competencies under the new law \u0093Governance of the network of public health organizations and primary care buildings to include representation of local self-government in all the boards of all the publicly owned health care organizations; \u0093 Public health education; \u0093 Preventive activities; \u0093 Oversight over contagious diseases; \u0093 Protection of health workers and protection at work; \u0093 Health oversight over the environment; \u0093 Assistance to patients with special needs (mental health, child abuse, etc.).",
+        "Survey of the State Statistical Office done in the primary and secondary schools at the beginning of the school year2002/2003 .",
+        "Opinion poll conducted for the National Human Development Report 2001, UNDP."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 5 Towards sustainable local development CHAPTER 5 Two main issues are causing local development in Macedonia to be polarized: 1) development of urban mu",
+      "summary_under_100_words": "Chapter 5 Towards sustainable local development CHAPTER 5 Two main issues are causing local development in Macedonia to be polarized: 1) development of urban municipalities at the expense of rural ones; and 2) economic development concentrated in Skopje. These have led to disproportionate levels of economic development between urban and rural municipalities leading to high unemployment, social distortion, inadequate municipal and social infrastructure, and a lack of residential space. ADMINISTRATIVE DIVISION Macedonia is currently divided into 123 municipalities in addition to the city of Skopje",
+      "key_points": [
+        "Chapter 5 Towards sustainable local development CHAPTER 5 Two main issues are causing local development in Macedonia to be polarized: 1) development of urban municipalities at the expense of rural ones; and 2) economic development concentrated in Skopje.",
+        "These have led to disproportionate levels of economic development between urban and rural municipalities leading to high unemployment, social distortion, inadequate municipal and social infrastructure, and a lack of residential space.",
+        "ADMINISTRATIVE DIVISION Macedonia is currently divided into 123 municipalities in addition to the city of Skopje as a separate local governmental unit."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 5",
+      "summary_under_100_words": "Chapter 5 [Page 83] THE ETHNIC DIMENSION OF THE REFORM Given the territorial concentration of ethnic groups, administrative reform has inevitably ethnic implications. But too often, the question boils down to the problem of ethnic majority: who should have the majority at the local level, and consequently, who might be able to \u2018outvote\u2019 the other in the municipal council. Put this way, the question inevitably provokes controversy and emotion. From an ethnic point of view, the cases of Struga and Kicevo are particularly interesting. According",
+      "key_points": [
+        "Chapter 5\n\n[Page 83]\nTHE ETHNIC DIMENSION OF THE REFORM Given the territorial concentration of ethnic groups, administrative reform has inevitably ethnic implications.",
+        "But too often, the question boils down to the problem of ethnic majority: who should have the majority at the local level, and consequently, who might be able to \u2018outvote\u2019 the other in the municipal council.",
+        "Put this way, the question inevitably provokes controversy and emotion."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 5 Municipalities (existing) Total population Macedonians Albanians Turks Roma Vlachs Serbs Bosniaks Other Kicevo 30,138 16,140 53.5 % 9,202 30.5 % 2,430",
+      "summary_under_100_words": "Chapter 5 Municipalities (existing) Total population Macedonians Albanians Turks Roma Vlachs Serbs Bosniaks Other Kicevo 30,138 16,140 53.5 % 9,202 30.5 % 2,430 1,630 76 86 7 567 Drugovo 3,249 2,784 85.7 % 155 4.8 % 292 1 \u2013 8 \u2013 9 Vranesnica 1,322 1,033 78.1 % 10 0.76 % 276 \u2013 2 \u2013 \u2013 1 Zajas 11,605 211 1.8 % 11,308 97.4 % \u2013 \u2013 \u2013 6 \u2013 80 Oslomej 10,425 110 1.0 % 10,257 98.4 % \u2013 \u2013 \u2013 \u2013 1 57 Total",
+      "key_points": [
+        "Chapter 5 Municipalities (existing) Total population Macedonians Albanians Turks Roma Vlachs Serbs Bosniaks Other Kicevo 30,138 16,140 53.5 % 9,202 30.5 % 2,430 1,630 76 86 7 567 Drugovo 3,249 2,784 85.7 % 155 4.8 % 292 1 \u2013 8 \u2013 9 Vranesnica 1,322 1,033 78.1 % 10 0.76 % 276 \u2013 2 \u2013 \u2013 1 Zajas 11,605 211 1.8 % 11,308 97.4 % \u2013 \u2013 \u2013 6 \u2013 80 Oslomej 10,425 110 1.0 % 10,257 98.4 % \u2013 \u2013 \u2013 \u2013 1 57 Total in new Kicevo 56,739 20,278 35.7 % 30,932 54.5 % 2,998 1,631 78 100 8 714 Struga 36,892 17,686 47.9 % 15,324 41.5 % 2,008 112 647 100 31 984 Lukovo 1,509 1,496 99.1 % \u2013 \u2013 \u2013 \u2013 \u2013 3 \u2013 10 Labunista 8,935 1,149 12.8 % 4,935 55.2 % 1,618 3 8 1 72 1,149 Delogozdi 7,884 3 0.04 % 7,698 97.6 % 2 \u2013 \u2013 2 \u2013 179 Vevcani 2,433 2,419 99.4 % 3 0.1 % \u2013 \u2013 1 3 \u2013 7 Velesta 8,156 2 0.02 % 8,072 99.0 % \u2013 1 1 \u2013 \u2013 80 Total in new Struga 65,809 22,755 34.5 % 36,032 54.7 % 3,628 116 657 109 103 2,409 Table 5.2: Ethnic structure after reform: the case of Kicevo and Struga \u2013 municipalities to be included in the new municipal structures of Kicevo and Struga Note: Data are taken from the 2002 census, according to the State Statistical Office.",
+        "[Page 84]\nThe solution proposed by the Albanian coalition partner in the Government provoked intensive debate.",
+        "The referenda in Kicevo and Struga, organized by the existing mayors of an ethnic Macedonian origin, were boycotted by the ethnic Albanian part of the population."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 5",
+      "summary_under_100_words": "Chapter 5 [Page 85] authorities have sufficient managerial capacity, before fiscal decentralization begins. MUNICIPALITIES\u2019 OWN REVENUES Each year, the Macedonian Parliament enacts a special law which defines the overall source revenues to fund the public needs and distributes them to the Central Government, to funds and LGUs. After reaching the legally defined amounts, all exceeding revenues are considered surplus, and are taken from the LGUs and transferred to a special budgetary account. Thereafter, the Central Government has full discretion in handling these resources. However, this",
+      "key_points": [
+        "Chapter 5\n\n[Page 85]\nauthorities have sufficient managerial capacity, before fiscal decentralization begins.",
+        "MUNICIPALITIES\u2019 OWN REVENUES Each year, the Macedonian Parliament enacts a special law which defines the overall source revenues to fund the public needs and distributes them to the Central Government, to funds and LGUs.",
+        "After reaching the legally defined amounts, all exceeding revenues are considered surplus, and are taken from the LGUs and transferred to a special budgetary account."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 5 Municipality Population Own revenues Transfers Total revenues Tetovo 70,841 477 263 739 Kumanovo 103,205 657 213 869 Prilep 73,351 401 466 867 Kocani ",
+      "summary_under_100_words": "Chapter 5 Municipality Population Own revenues Transfers Total revenues Tetovo 70,841 477 263 739 Kumanovo 103,205 657 213 869 Prilep 73,351 401 466 867 Kocani 33,689 381 126 507 Kavadarci 38,391 1,325 532 1,857 Strumica 45,087 954 717 1,671 City of Skopje 467,257 1,855 99 1,953 Gostivar 49,545 323 258 581 Debar 17,952 415 426 841 Ohrid 54,380 2,551 519 3,070 Bitola 86,408 601 516 1,117 Veles 57,602 1,032 411 1,443 Gevgelija 20,362 663 521 1,184 Stip 47,796 532 427 959 Probistip 12,765 382 695",
+      "key_points": [
+        "Chapter 5 Municipality Population Own revenues Transfers Total revenues Tetovo 70,841 477 263 739 Kumanovo 103,205 657 213 869 Prilep 73,351 401 466 867 Kocani 33,689 381 126 507 Kavadarci 38,391 1,325 532 1,857 Strumica 45,087 954 717 1,671 City of Skopje 467,257 1,855 99 1,953 Gostivar 49,545 323 258 581 Debar 17,952 415 426 841 Ohrid 54,380 2,551 519 3,070 Bitola 86,408 601 516 1,117 Veles 57,602 1,032 411 1,443 Gevgelija 20,362 663 521 1,184 Stip 47,796 532 427 959 Probistip 12,765 382 695 1,077 Rostusa 9,451 357 718 1,075 Tearce 22,454 416 454 870 Cucer-Sandevo 8,493 972 491 1,463 Zajas 11,605 369 455 824 Dolneni 11,583 360 316 676 Bogdanci 8,707 443 67 510 Rosoman 4,141 423 760 1,183 M.Kamenica 8,110 239 157 396 Novo Selo 11,966 384 823 1,207 Table 5.3: Municipalities\u2019 own revenues per capita in MKD Source: Calculations made on the basis of data provided by Ministry of Finance, 2002 Annual financial statements of municipalit ies.",
+        "Revenues and transfers are shown per capita, in denars.",
+        "Transfers and revenues from the administrative budget and different funds of municipalities."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 5 Revenue sources Skopje Urban Rural Total Property taxes 8.3 21.8 31.6 14.9 Communal charges 72.3 39.8 13.4 56.4 Non-tax revenues 2 0.3 3.3 2.8 1.7 Tra",
+      "summary_under_100_words": "Chapter 5 Revenue sources Skopje Urban Rural Total Property taxes 8.3 21.8 31.6 14.9 Communal charges 72.3 39.8 13.4 56.4 Non-tax revenues 2 0.3 3.3 2.8 1.7 Transfers 4.3 33.9 51.6 18.6 International grants 1.2 0.4 0.0 0.8 Loans 13.5 0.8 0.5 7.6 Table 5.4: Structure of municipal revenues, 2002 1 Source: Calculations made on the basis of the data provided by Ministry of Finance, Municipalities\u2019 final accounts for 2002. Notes: 1. As percentage of total administrative budgets and funds revenues. Calculations based on a",
+      "key_points": [
+        "Chapter 5 Revenue sources Skopje Urban Rural Total Property taxes 8.3 21.8 31.6 14.9 Communal charges 72.3 39.8 13.4 56.4 Non-tax revenues 2 0.3 3.3 2.8 1.7 Transfers 4.3 33.9 51.6 18.6 International grants 1.2 0.4 0.0 0.8 Loans 13.5 0.8 0.5 7.6 Table 5.4: Structure of municipal revenues, 2002 1 Source: Calculations made on the basis of the data provided by Ministry of Finance, Municipalities\u2019 final accounts for 2002.",
+        "As percentage of total administrative budgets and funds revenues.",
+        "Calculations based on a specimen of 24 municipaliti es; 2."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 5 Unit of local self-government Population Expenditures Transfers Transfers as % of expendituresTotal Per capita Total Per capita Tetovo 70,841 23,993,0",
+      "summary_under_100_words": "Chapter 5 Unit of local self-government Population Expenditures Transfers Transfers as % of expendituresTotal Per capita Total Per capita Tetovo 70,841 23,993,086 339 2,100,000 30 8.75 Kumanovo 103,205 26,048,629 252 4,891,809 47 18.78 Prilep 73,351 19,550,615 267 9,300,000 127 47.57 Kocani 33,689 9,116,578 271 4,126,530 122 45.26 Kavadarci 38,391 25,216,762 657 6,625,507 173 26.27 Strumica 45,087 18,690,471 415 7,199,401 160 38.52 Grad Skopje* 467,257 102,428,054 219 16,086,624 34 15.71 Gostivar 49,545 18,077,355 365 3,093,111 62 17.11 Debar 17,952 5,224,840 291 2,201,752 123 42.14 Ohrid 54,380",
+      "key_points": [
+        "Chapter 5 Unit of local self-government Population Expenditures Transfers Transfers as % of expendituresTotal Per capita Total Per capita Tetovo 70,841 23,993,086 339 2,100,000 30 8.75 Kumanovo 103,205 26,048,629 252 4,891,809 47 18.78 Prilep 73,351 19,550,615 267 9,300,000 127 47.57 Kocani 33,689 9,116,578 271 4,126,530 122 45.26 Kavadarci 38,391 25,216,762 657 6,625,507 173 26.27 Strumica 45,087 18,690,471 415 7,199,401 160 38.52 Grad Skopje* 467,257 102,428,054 219 16,086,624 34 15.71 Gostivar 49,545 18,077,355 365 3,093,111 62 17.11 Debar 17,952 5,224,840 291 2,201,752 123 42.14 Ohrid 54,380 36,959,619 680 6,792,341 125 18.38 Bitola 86,408 47,279,943 547 11,485,961 133 24.29 Veles 57,602 17,543,423 305 7,265,631 126 41.42 Gevgelija 20,362 10,813,158 531 2,550,036 125 23.58 Stip 47,796 18,615,554 389 5,433,381 114 29.19 Probistip 12,765 3,653,483 286 2,400,029 188 65.69 Rostusa 9,451 5,521,107 584 2,699,713 286 48.90 Tearce 22,454 5,973,531 266 2,230,379 99 37.34 Cucer-Sandevo 8,493 4,981,523 587 1,584,339 187 31.80 Zajas 11,605 3,773,184 325 1,593,558 137 42.23 Dolneni 11,583 3,581,969 309 600,000 52 16.75 Bogdanci 8,707 2,823,443 324 583,605 67 20.67 Rosoman 4,141 2,492,160 602 1,159,779 280 46.54 Makedonska Kamenica 8,110 3,155,548 389 1,272,445 157 40.32 Novo Selo 11,966 12,363,292 1,033 8,375,516 700 67.75 Table 5.5: Municipal expenditures and transfers in MKD *Grad Skopje (City of Skopje) is a separate unit of local self-government with its own budget; there are 123 municipalities, but 124 units of local self-government.",
+        "[Page 88]\nmunicipalities\u2019 own revenues is greater, and this especially applies to the urban municipalities.9 TRANSFERS FROM THE CENTRAL GOVERNMENT In view of the absence of a consistent financial equalization system, the horizontal fund distribution is closely related to the allocation of revenues between the central and local governments.",
+        "Namely, part of the surplus revenue of the LGUs which the Government allocates annually to the municipalities present grants of the Central Government to the municipalities, and most often as general grants, while in particular cases as specific, i.e."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 5 Expenditure type Skopje Urban Rural Total Current expenditures 63.0 60.4 79.8 62.3 Salaries and pays 6.2 18.5 29.8 12.0 Goods and services 38.4 34.1 4",
+      "summary_under_100_words": "Chapter 5 Expenditure type Skopje Urban Rural Total Current expenditures 63.0 60.4 79.8 62.3 Salaries and pays 6.2 18.5 29.8 12.0 Goods and services 38.4 34.1 44.3 36.8 Transfers & subsidies 2 18.4 7.8 5.7 13.5 Capital expenditures 34.3 39.1 20.2 36.0 Debt Servicing 3 2.8 0.7 0.0 2.1 Table 5.6: Structure of municipal expenditure, 2002 1 Source: Calculations made on basis of data provided by Ministry of Finace, Municipalities\u2019 final accounts for 2002. Notes: 1. As percentage of total administrative budgets and funds revenues.",
+      "key_points": [
+        "Chapter 5 Expenditure type Skopje Urban Rural Total Current expenditures 63.0 60.4 79.8 62.3 Salaries and pays 6.2 18.5 29.8 12.0 Goods and services 38.4 34.1 44.3 36.8 Transfers & subsidies 2 18.4 7.8 5.7 13.5 Capital expenditures 34.3 39.1 20.2 36.0 Debt Servicing 3 2.8 0.7 0.0 2.1 Table 5.6: Structure of municipal expenditure, 2002 1 Source: Calculations made on basis of data provided by Ministry of Finace, Municipalities\u2019 final accounts for 2002.",
+        "As percentage of total administrative budgets and funds revenues.",
+        "Calculations based on a specimen of 24 municipaliti es."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 5 size MKD per capita Graph 5.2: Impact of transfers on urban municipalties\u2019 budgets",
+      "summary_under_100_words": "Chapter 5 size MKD per capita Graph 5.2: Impact of transfers on urban municipalties\u2019 budgets [Page 90] REFORM OF THE FINANCIAL EQUALIZATION SYSTEM The present system of allocating transfers from the central budget to municipalities suffers from a number of deficiencies that are typical in developing countries that lack financial equalization mechanisms. 13 The present method of fund allocation does not remove horizontal disparities, as it is not based on acceptable standards for the provision of public services; nor does it take account of municipal",
+      "key_points": [
+        "Chapter 5 size MKD per capita Graph 5.2: Impact of transfers on urban municipalties\u2019 budgets\n\n[Page 90]\nREFORM OF THE FINANCIAL EQUALIZATION SYSTEM The present system of allocating transfers from the central budget to municipalities suffers from a number of deficiencies that are typical in developing countries that lack financial equalization mechanisms.",
+        "13 The present method of fund allocation does not remove horizontal disparities, as it is not based on acceptable standards for the provision of public services; nor does it take account of municipal fiscal capacities.",
+        "Consequently, large municipalities are also the largest beneficiaries of funds transferred from the Central Government, while at the same time there are frequent instances in which smaller municipalities receive resources well beyond their fiscal needs."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 5",
+      "summary_under_100_words": "Chapter 5 [Page 91] opment. For this to occur, however, LGUs need to have steady financial resources, as the promotion of human development is typically associated with considerable investments in education, health care and social infrastructure. The second aspect may be even more significant, as it often happens that it is not the amount of resources available but rather their purpose and efficient use that is the deciding factor in promoting human development. 16 This means that the same level of resources may yield better",
+      "key_points": [
+        "For this to occur, however, LGUs need to have steady financial resources, as the promotion of human development is typically associated with considerable investments in education, health care and social infrastructure.",
+        "The second aspect may be even more significant, as it often happens that it is not the amount of resources available but rather their purpose and efficient use that is the deciding factor in promoting human development.",
+        "16 This means that the same level of resources may yield better human development, if they are used efficiently, i.e."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 5",
+      "summary_under_100_words": "Chapter 5 [Page 92] zation of a society, and through decentralization ordinary citizens have increased opportunities to participate in decision-making on issues that affect their lives. In principle, decentralization should increase the degree of public participation in political decisionmaking, as one might expect that people are more willing to participate in political life if they know that their engagement will have an impact. 20 In this respect, public interest in participating in political life is typically higher at the local level, where people decide about",
+      "key_points": [
+        "Chapter 5\n\n[Page 92]\nzation of a society, and through decentralization ordinary citizens have increased opportunities to participate in decision-making on issues that affect their lives.",
+        "In principle, decentralization should increase the degree of public participation in political decisionmaking, as one might expect that people are more willing to participate in political life if they know that their engagement will have an impact.",
+        "20 In this respect, public interest in participating in political life is typically higher at the local level, where people decide about problems in their everyday life."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 5 Box 5.2: Basic definitions on decentralization Administrative decentralization refers to the reallocation of powers, responsibilities, and financial a",
+      "summary_under_100_words": "Chapter 5 Box 5.2: Basic definitions on decentralization Administrative decentralization refers to the reallocation of powers, responsibilities, and financial and other resources for the provision of public services between the various authorities in a state. There are three types of administrative decentralization: de-concentration, delegation and devolution. De-concentration is a process of transfer of powers from the centre of a state body (ministry) to regional units of the same body. Regional units act under the instructions and complete control of the central body. Delegation is a",
+      "key_points": [
+        "Chapter 5 Box 5.2: Basic definitions on decentralization Administrative decentralization refers to the reallocation of powers, responsibilities, and financial and other resources for the provision of public services between the various authorities in a state.",
+        "There are three types of administrative decentralization: de-concentration, delegation and devolution.",
+        "De-concentration is a process of transfer of powers from the centre of a state body (ministry) to regional units of the same body."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 5 1. Official Gazette, 49/96. 2. Davey, 2001. 3. See Jurkovic (1989), Pusara & Ristic (1991) and Ristic (1989, 1991) for more details on the fiscal refo",
+      "summary_under_100_words": "Chapter 5 1. Official Gazette, 49/96. 2. Davey, 2001. 3. See Jurkovic (1989), Pusara & Ristic (1991) and Ristic (1989, 1991) for more details on the fiscal reforms in the 1970s. 4. For more details on the tax system of Macedonia see Bogoev and Atanasovski (1994). 5. MKD 61.5 = \u20ac 1 6. On EU taxing, see Committee of the Regions (2000). Subnational financial operations are given in Bingham (1986). Freinkman, T reisman and Titov (1999) analyse the local financial operations in Russia. On South",
+      "key_points": [
+        "See Jurkovic (1989), Pusara & Ristic (1991) and Ristic (1989, 1991) for more details on the fiscal reforms in the 1970s.",
+        "For more details on the tax system of Macedonia see Bogoev and Atanasovski (1994).",
+        "On EU taxing, see Committee of the Regions (2000)."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 6 A policy agenda for an improved local self-government CHAPTER 6 Macedonia was highly centralized in the transition process, thus marginalizing the loc",
+      "summary_under_100_words": "Chapter 6 A policy agenda for an improved local self-government CHAPTER 6 Macedonia was highly centralized in the transition process, thus marginalizing the local selfgovernment and sidelining certain achievements of the previous socialist period (until 1991), when the local self-government had wide competencies, a large number of high-quality sources of finance and considerably broader citizen participation. Centralization during the transition period resulted in high inefficiency of the local self-government, which is still the case today. This has created a need for reforms that require further",
+      "key_points": [
+        "Chapter 6 A policy agenda for an improved local self-government CHAPTER 6 Macedonia was highly centralized in the transition process, thus marginalizing the local selfgovernment and sidelining certain achievements of the previous socialist period (until 1991), when the local self-government had wide competencies, a large number of high-quality sources of finance and considerably broader citizen participation.",
+        "Centralization during the transition period resulted in high inefficiency of the local self-government, which is still the case today.",
+        "This has created a need for reforms that require further elaboration on, among others, local competencies, financing, territorial division, and on the organization of the city of Skopje, although these issues are expected to be resolved shortly."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 6",
+      "summary_under_100_words": "Chapter 6 [Page 97] could be done through improved measures for employment promotion and through constant assessment of the efficiency of labour market policies. The equal treatment of and possibilities for employment of women in all areas of the workforce \u2013 public and private \u2013 and at all levels, is of particular importance. Lessons learned from other countries in transition suggest that while policies such as welfare and unemployment benefits protect against poverty in the short term, they are a costly and unsustainable policy option",
+      "key_points": [
+        "Chapter 6\n\n[Page 97]\ncould be done through improved measures for employment promotion and through constant assessment of the efficiency of labour market policies.",
+        "The equal treatment of and possibilities for employment of women in all areas of the workforce \u2013 public and private \u2013 and at all levels, is of particular importance.",
+        "Lessons learned from other countries in transition suggest that while policies such as welfare and unemployment benefits protect against poverty in the short term, they are a costly and unsustainable policy option in the long run."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 6",
+      "summary_under_100_words": "Chapter 6 [Page 98] social and financial actions with respect to the equalization schemes, but only a grasp of the potential impact of equalization development dynamics, and above all the political will to use financial instruments for transferring the revenues from the more to the less developed municipalities. FISCAL SUSTAINABILITY The decentralization of the fiscal system is typical for reform-oriented governments. Definitely, fiscal decentralization should be the long-term objective. But a phased approach could be applied here. A necessary precondition for successful fiscal decentralization is",
+      "key_points": [
+        "Chapter 6\n\n[Page 98]\nsocial and financial actions with respect to the equalization schemes, but only a grasp of the potential impact of equalization development dynamics, and above all the political will to use financial instruments for transferring the revenues from the more to the less developed municipalities.",
+        "FISCAL SUSTAINABILITY The decentralization of the fiscal system is typical for reform-oriented governments.",
+        "A necessary precondition for successful fiscal decentralization is clarity on the schemes of funding sources, reflecting differences of municipalities\u2019 development levels and income generating capacities, realistic estimations of the range of possible tax and other revenues and necessary central transfers support."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 6",
+      "summary_under_100_words": "Chapter 6 [Page 99] least efficient. Proper mechanisms for guaranteeing minority interests and promoting consensual solutions within economically and administratively integrated entities could be formally incorporated into the system of local self-governance. The option of a multi-tier system of government. One way to ensure that minority interests are represented within a broader majority setting at the local level is through a multi-tiered system of government. A tiered system of local self-government could assure equitable political representation, provide possibilities for the solution of shared problems in",
+      "key_points": [
+        "Proper mechanisms for guaranteeing minority interests and promoting consensual solutions within economically and administratively integrated entities could be formally incorporated into the system of local self-governance.",
+        "One way to ensure that minority interests are represented within a broader majority setting at the local level is through a multi-tiered system of government.",
+        "A tiered system of local self-government could assure equitable political representation, provide possibilities for the solution of shared problems in a collaborative manner and thus improve human development and security for all."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 6",
+      "summary_under_100_words": "Chapter 6 [Page 100] capacities of local self-governments to assume decentralized responsibilities and provide quality services to local communities. In order to facilitate the process of developing a highly professional, accountable and efficient local government administration, capable to undertake the new competencies transferred with decentralization a national training system should be established led and coordinated by national institutions such as the Civil Servants Agency, the Ministry of Local Self-Government and the Association of Local Self-Governments. POSSIBLE ADVANTAGES AND RISKS In principle, a comprehensive and well-designed",
+      "key_points": [
+        "Chapter 6\n\n[Page 100]\ncapacities of local self-governments to assume decentralized responsibilities and provide quality services to local communities.",
+        "In order to facilitate the process of developing a highly professional, accountable and efficient local government administration, capable to undertake the new competencies transferred with decentralization a national training system should be established led and coordinated by national institutions such as the Civil Servants Agency, the Ministry of Local Self-Government and the Association of Local Self-Governments.",
+        "POSSIBLE ADVANTAGES AND RISKS In principle, a comprehensive and well-designed local self-government should significantly improve community management as a precondition for local human development."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 6",
+      "summary_under_100_words": "Chapter 6 [Page 101] \u0093 Allocation of a portion of centrally collected assets in accordance with well-defined purposes and criteria. These assets could be transferred by the central government to local units in, e.g. the elementary education sector. This would ensure the preservation of minimum standards in the educational system that protects against discrimination on an ethnic basis. \u0093 Introduction of schemes for fiscal equalization that would equalize both inter- and intramunicipal differences. Based on an assessment of inequalities with regard to human development and",
+      "key_points": [
+        "Chapter 6\n\n[Page 101]\n\u0093 Allocation of a portion of centrally collected assets in accordance with well-defined purposes and criteria.",
+        "These assets could be transferred by the central government to local units in, e.g.",
+        "This would ensure the preservation of minimum standards in the educational system that protects against discrimination on an ethnic basis."
+      ]
+    },
+    {
+      "chapter_title": "Chapter 6",
+      "summary_under_100_words": "Chapter 6 [Page 103] National Human Development Report 2004, Macedonia 103Annex ANNEX Efficiency of the Mayor the Council 1. Extremely efficient 3,65 1,25 2. Rather efficient 15,00 10,31 3. Partly efficient 30,94 35,00 4. Inefficient to a certain level 16,35 17,92 5. Extremely inefficient 17,81 15,83 6. Unable to evaluate 16,25 19,69 Total 100,00 100,00 Table 1 Efficiency of the Mayor and the Council Answers % 1. Not fulfilling his/her promises, that is, citizens\u2019 interests are not a priority to him/her 34,17 2. Self-will, corruption",
+      "key_points": [
+        "Chapter 6\n\n[Page 103]\nNational Human Development Report 2004, Macedonia 103Annex ANNEX Efficiency of the Mayor the Council 1.",
+        "Unable to evaluate 16,25 19,69 Total 100,00 100,00 Table 1 Efficiency of the Mayor and the Council Answers % 1.",
+        "Not fulfilling his/her promises, that is, citizens\u2019 interests are not a priority to him/her 34,17 2."
+      ]
+    },
+    {
+      "chapter_title": "CHAPTER 1 Source: \u2018Local Self-Government System Functioning\u2019. Research conducted by the Institute for Sociological, Political and Legal Research, Skopje, 2000",
+      "summary_under_100_words": "CHAPTER 1 Source: \u2018Local Self-Government System Functioning\u2019. Research conducted by the Institute for Sociological, Political and Legal Research, Skopje, 2000 [Page 104] National Human Development Report 2004, Macedonia104 Annex Municipalities Health care stations Health care centers Out patient clinics in health care centres Medical centres\u2013 sections health care centres Macedonia 6 18 9 16 Berovo - 2 - Bitola - - - 1 Makedonski Brod - 1 1 Valandovo - 1 1 Vinica - 1 - Gevgelija - - - 1 Gostivar - 1 -",
+      "key_points": [
+        "Research conducted by the Institute for Sociological, Political and Legal Research, Skopje, 2000\n\n[Page 104]\nNational Human Development Report 2004, Macedonia104 Annex Municipalities Health care stations Health care centers Out patient clinics in health care centres Medical centres\u2013 sections health care centres Macedonia 6 18 9 16 Berovo - 2 - Bitola - - - 1 Makedonski Brod - 1 1 Valandovo - 1 1 Vinica - 1 - Gevgelija - - - 1 Gostivar - 1 - 1 Debar - - - 1 Delcevo - 1 - Demir Hisar - 1 - Kavadarci - - - 1 Kicevo - - - 1 Kocani - - - 1 Kratovo - 1 1 Kriva Palanka - - - 1 Krusevo - 1 - Kumanovo - - - 1 Negotino - 1 1 Ohrid - - - 1 Prilep - - - 1 Probistip - 1 1 Radovis - 1 1 Resen - 1 - Sv.",
+        "Nikole - 1 1 Skopje 5 2 - Struga - 1 1 1 Strumica - - 1 1 Tetovo 1 - - 1 Veles - - - 1 Stip - - - 1 Table 1.",
+        "Network of primary health care facilities in Macedonia in 2001 Source: Republic Health Protection Institute (2002): Report on the health status and health care of the population in the Repub lic of Macedonia, 2001."
+      ]
+    },
+    {
+      "chapter_title": "CHAPTER 4",
+      "summary_under_100_words": "CHAPTER 4 [Page 105] National Human Development Report 2004, Macedonia 105Annex General Medicine Occupational health Health care of children Health care of school children and young people Health care of women Pulmonary diseases and tuberculosis Medical stations in rural areas Permanent physician Visiting physician Macedonia 456 78 70 71 50 20 209 118 Berovo 11 2 2 2 2 1 1 8 Bitola 31 8 7 13 1 1 17 8 Mak. Brod 3 1 1 1 1 - 2 Valandovo 3 1 1 1",
+      "key_points": [
+        "CHAPTER 4\n\n[Page 105]\nNational Human Development Report 2004, Macedonia 105Annex General Medicine Occupational health Health care of children Health care of school children and young people Health care of women Pulmonary diseases and tuberculosis Medical stations in rural areas Permanent physician Visiting physician Macedonia 456 78 70 71 50 20 209 118 Berovo 11 2 2 2 2 1 1 8 Bitola 31 8 7 13 1 1 17 8 Mak.",
+        "Brod 3 1 1 1 1 - 2 Valandovo 3 1 1 1 1 - - 2 Veles 20 5 3 3 2 1 10 5 Vinica 9 1 1 1 1 - 2 6 Gevgelija 16 1 2 2 2 1 9 6 Gostivar 21 1 2 1 2 1 14 5 Debar 7 1 1 1 1 1 6 1 Delcevo 13 2 2 1 2 - 6 6 Demir Hisar 4 - 1 1 - - 1 1 Kavadarci 11 2 1 1 1 1 1 8 Kicevo 10 2 1 1 1 1 8 2 Kocani 8 1 1 1 1 1 4 0 Kratovo 8 - 1 1 - - - 6 Kriva Palanka 14 1 1 1 1 1 1 10 Krusevo 4 1 1 1 1 - 1 1 Kumanovo 19 3 5 1 1 1 1 14 Negotino 13 1 2 1 1 1 2 8 Ohrid 14 6 1 2 1 1 6 3 Prilep 20 3 2 2 1 1 11 Probistip 2 1 1 1 1 - 2 Radovis 6 1 1 1 1 1 3 2 Resen 6 2 1 1 1 - 3 3 Sv.",
+        "Nikole 10 2 2 1 1 1 3 3 Skopje 93 21 20 22 16 1 39 Struga 17 1 2 2 1 - 14 4 Strumica 22 3 1 1 2 1 21 Tetovo 28 2 1 1 2 1 20 5 Stip 13 2 2 2 1 1 1 3 Table 2."
+      ]
+    }
+  ]
+}
