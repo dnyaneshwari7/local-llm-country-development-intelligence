@@ -1,0 +1,29 @@
+{
+  "project": {
+    "country": "North Macedonia",
+    "report_title": "National Human Development Report 2004",
+    "pdf_path": "data/raw/macedonia2004en.pdf",
+    "output_dir": "data/processed"
+  },
+  "llm": {
+    "provider": "ollama",
+    "base_url": "http://localhost:11434",
+    "extraction_models": ["llama3.1:8b", "mistral:7b", "qwen2.5:7b"],
+    "evaluator_model": "llama3.1:8b",
+    "temperature": 0.1,
+    "timeout_seconds": 120
+  },
+  "chunking": {
+    "max_words": 900,
+    "overlap_words": 120
+  },
+  "themes": {
+    "education": ["education", "school", "schooling", "literacy", "university", "training"],
+    "health": ["health", "life expectancy", "mortality", "disease", "hospital", "healthcare"],
+    "inequality": ["inequality", "poverty", "exclusion", "vulnerable", "deprivation"],
+    "economy": ["economy", "gdp", "income", "growth", "investment", "productivity"],
+    "gender": ["gender", "women", "female", "equality"],
+    "climate": ["climate", "environment", "environmental", "sustainability", "pollution"],
+    "employment": ["employment", "unemployment", "labour", "labor", "jobs", "workforce"]
+  }
+}
